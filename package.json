@@ -1,0 +1,30 @@
+{
+  "name": "crypto-widget",
+  "version": "1.0.0",
+  "description": "Search Cryptocurrencies",
+  "main": "src/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc nodemon test/test.js | tap-spec",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LawEKS/crypto-widget.git"
+  },
+  "author": "LawEKS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LawEKS/crypto-widget/issues"
+  },
+  "homepage": "https://github.com/LawEKS/crypto-widget#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.2",
+    "nyc": "^11.6.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0"
+  }
+}
