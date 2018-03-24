@@ -7,9 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "nyc nodemon test/test.js | tap-spec",
+    "test": "nyc tape test/toolkit.test.js | tap-spec",
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "dev-test": "nodemon test/toolkit.test.js | tap-spec"
   },
   "repository": {
     "type": "git",
