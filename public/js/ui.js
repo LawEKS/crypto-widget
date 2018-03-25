@@ -4,7 +4,7 @@ function listenUserSearchInput() {
   var input = document.querySelector('.search')
   input.addEventListener('keyup', function(e) {
     var userInput = e.target.value.trim()
-    // getSuggestions(userInput)
+    getSuggestions(userInput, renderSuggestion)
   })
 }
 
@@ -13,7 +13,5 @@ function listenUserSelectItem () {
   var item = 'asset'
   getOverview(item)
 }
-
-console.log('ui.js is running')
 
 listenUserSearchInput()
