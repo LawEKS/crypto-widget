@@ -1,7 +1,3 @@
-function clearContainer(htmlContainer) {
-  console.log('clearing ' + htmlContainer + ' container')
-}
-
 function renderSuggestion(obj) {
   var container = document.querySelector('.list-container')
   var oldList = document.querySelector('.list')
@@ -10,7 +6,6 @@ function renderSuggestion(obj) {
 
   for (var key in obj) {
     if (obj.hasOwnProperty(key)) {
-      console.log(obj[key])
       var item = document.createElement('li')
       var text = document.createTextNode(key)
       var ticker = obj[key].ticker

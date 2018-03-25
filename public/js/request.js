@@ -1,17 +1,17 @@
-function getSuggestions(subString, renderer) {
+function getSuggestions(subString) {
   var url = '/suggestions&search=' + subString
   var xhr = new XMLHttpRequest()
   xhr.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
       var resObj = JSON.parse(this.responseText)
-      renderer(resObj)
+      renderSuggestion(resObj)
     }
   }
   xhr.open('GET', url, true)
   xhr.send()
 }
 
-function getOverview(idString, renderer) {
+function getOverview(idString) {
   console.log('user selected ' + idString)
   console.log('fetching ' + idString + ' overview')
 
@@ -21,5 +21,5 @@ function getOverview(idString, renderer) {
     }
   } // fake response
 
-  renderer(resObj)
+  renderOverview(resObj)
 }
