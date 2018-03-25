@@ -1,6 +1,9 @@
 const http = require('http')
 const { get } = require('https')
+const path = require('path')
+const fs = require('fs')
 const { formatApiData } = require('./toolkit')
+
 const { log, error } = console
 
 const router = require('./router')
@@ -18,10 +21,14 @@ get(url, res => {
   })
 
   res.on('end', () => {
-    const formattedData = JSON.stringify(formatApiData(JSON.parse(json)))
-    log(formattedData)
+    const formattedData = JSON.stringify(formatApiData(JSON.parse(json)), null, 2)
+    const filePath = path.join(__dirname, 'data.json')
+    fs.writeFile(filePath, formattedData, err => {
+      if (err) return error(err)
+    })
   })
 })
+
 
 server.listen(port, err => {
   if (err) return error('Something went wrong ', err)
