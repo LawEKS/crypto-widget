@@ -4,10 +4,7 @@ const path = require('path')
 const data = require('./data.json')
 const { filterSuggestions } = require('./toolkit')
 
-const { log } = console
-
 const handleHome = (req, res) => {
-  log('-handle- home')
   const filePath = path.join(__dirname, '..', 'public', 'index.html')
   fs.readFile(filePath, (err, file) => {
     if (err) {
@@ -30,8 +27,6 @@ const handleIndex = (req, res) => {
 }
 
 const handleStatic = (req, res) => {
-  log('-handle- static')
-
   const ext = req.url.split('.')[1]
   const contentType = {
     html: 'text/html',
@@ -39,7 +34,6 @@ const handleStatic = (req, res) => {
     js: 'application/javascript',
     ico: 'image/x-icon'
   }[ext]
-  log('-content type- ' + contentType)
 
   const filePath = path.join(__dirname, '..', req.url)
   fs.readFile(filePath, (err, file) => {
@@ -52,14 +46,12 @@ const handleStatic = (req, res) => {
 }
 
 const handleSuggestions = (req, res) => {
-  log('-handle- suggestions')
   const search = qs.parse(req.url)['search']
   const suggestions = filterSuggestions(data, search)
   res200(res, JSON.stringify(suggestions), 'application/json')
 }
 
 const handlePageNotFound = res => {
-  log('-handle- page not found')
   resResourceError(res)
 }
 
