@@ -24,7 +24,6 @@ const fakeApiResObj = JSON.parse(JSON.stringify({
     }
   }))
 
-
 const dataFragment = JSON.parse(JSON.stringify({
     "Stellar": {
         "rank": 7,
