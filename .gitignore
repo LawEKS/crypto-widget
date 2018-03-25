@@ -60,3 +60,4 @@ typings/
 # vscode workspace settings
 .vscode
 
+.DS_Store

@@ -14,7 +14,18 @@ const formatApiData = resObj => {
 }
 
 const filterSuggestions = (dataObj, subString) => {
-  return {}
+  if (subString === '') {
+   return {}
+  }
+  const names = Object.keys(dataObj)
+  const result = names.reduce((obj, name) => {
+    if (name.toLowerCase().includes(subString.toLowerCase())) {
+      obj[name] = dataObj[name] 
+    }
+    return obj
+  }, {})
+  return result
+
 }
 
 module.exports = {
