@@ -1,6 +1,10 @@
 const test = require('tape')
 const { formatApiData, filterSuggestions } = require('../src/toolkit')
-const { fakeApiResObj } = require('./test-helper')
+const { 
+  fakeApiResObj,
+  dataFragment,
+  getFragmentSubString
+} = require('./test-helper')
 
 test('Tape is working', assert => {
   assert.pass('Tape is working')
@@ -31,6 +35,32 @@ test('Testing formatApiData', assert => {
   assert.equals(avgNumOfProps, 2, 'each inner object should have two properties')
   assert.end()
 
-  // const actual
-  // const expected
+})
+
+test('Testing filterSuggestions', assert => {
+  // test returns and object
+  const filteredSuggestions = filterSuggestions(dataFragment, getFragmentSubString())
+  assert.equals(
+    typeof filteredSuggestions,
+    'object',
+    'filterSuggestions should return an object')
+
+    if (Object.keys(filteredSuggestions).length > 0) {
+      assert.pass('returns suggestions that match the search')
+    } else {
+      assert.fail('does not return with suggestions')
+    }
+
+    assert.equals(
+      Object.keys(filterSuggestions(dataFragment, '')).length,
+      Object.keys({}).length,
+      'returns and empty object if an empty string is supplied')
+      
+      assert.equals(
+        Object.keys(filterSuggestions(dataFragment, 'kk')).length,
+        Object.keys({}).length,
+        'returns and empty object if no match is found')
+    
+
+    assert.end()
 })
