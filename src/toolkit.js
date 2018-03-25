@@ -1,35 +1,23 @@
 const fs = require('fs')
-const { error } = console
+const { log, error } = console
 
 const formatApiData = resObj => {
-  return {}
+  const coins = Object.keys(resObj.coins)
+  const result = coins.reduce((obj, coin) => {
+    const name = resObj.coins[coin].name
+    const rank = resObj.coins[coin].rank
+    const ticker = resObj.coins[coin].ticker
+    obj[name] = { rank, ticker }
+    return obj
+  }, {})
+  return result
 }
 
 const filterSuggestions = (dataObj, subString) => {
   return {}
 }
 
-const resServerError = res => {
-  error('500 something went wrong')
-  res.writeHead(500, {'Content-Type':'text/html'})
-  res.end('<h1>500 Sorry Server Error<h1>')
-}
-
-const resResourceError = res => {
-  error('404 something went wrong')
-  res.writeHead(404, {'Content-Type':'text/html'})
-  res.end('<h1>404 Sorry Page Not Found<h1>')
-}
-
-const resFile200 = (res, file, contentType = 'text/html') => {
-  res.writeHead(200, {'Content-Type': `${contentType}`})
-  res.end(file)
-}
-
 module.exports = {
   formatApiData,
-  filterSuggestions,
-  resServerError,
-  resResourceError,
-  resFile200
+  filterSuggestions
 }

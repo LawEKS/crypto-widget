@@ -1,7 +1,6 @@
 const fs = require('fs')
 const qs = require('querystring')
 const path = require('path')
-const { resServerError, resResourceError, resFile200 } = require('./toolkit')
 
 const { log } = console
 
@@ -57,6 +56,23 @@ const handleSuggestions = (req, res) => {
 const handlePageNotFound = res => {
   log('-handle- page not found')
   resResourceError(res)
+}
+
+const resServerError = res => {
+  error('500 something went wrong')
+  res.writeHead(500, {'Content-Type':'text/html'})
+  res.end('<h1>500 Sorry Server Error<h1>')
+}
+
+const resResourceError = res => {
+  error('404 something went wrong')
+  res.writeHead(404, {'Content-Type':'text/html'})
+  res.end('<h1>404 Sorry Page Not Found<h1>')
+}
+
+const resFile200 = (res, file, contentType = 'text/html') => {
+  res.writeHead(200, {'Content-Type': `${contentType}`})
+  res.end(file)
 }
 
 module.exports = {
