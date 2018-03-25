@@ -1,5 +1,6 @@
 const http = require('http')
 const { get } = require('https')
+const { formatApiData } = require('./toolkit')
 const { log, error } = console
 
 const router = require('./router')
@@ -11,14 +12,14 @@ const server = http.createServer(router)
 const url = 'https://coinbin.org/coins'
 
 get(url, res => {
-
   let json = ''
-  res.once('data', chunk => {
+  res.on('data', chunk => {
     json += chunk
   })
 
   res.on('end', () => {
-    log(json)
+    const formattedData = JSON.stringify(formatApiData(JSON.parse(json)))
+    log(formattedData)
   })
 })
 
