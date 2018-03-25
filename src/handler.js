@@ -1,6 +1,8 @@
 const fs = require('fs')
 const qs = require('querystring')
 const path = require('path')
+const data = require('./data.json')
+const { filterSuggestions } = require('./toolkit')
 
 const { log } = console
 
@@ -11,7 +13,7 @@ const handleHome = (req, res) => {
     if (err) {
       resServerError(res)
     } else {
-      resFile200(res, file)
+      res200(res, file)
     }
   })
 }
@@ -22,7 +24,7 @@ const handleIndex = (req, res) => {
     if (err) {
       resServerError(res)
     } else {
-      resFile200(res, file)
+      res200(res, file)
     }
   })
 }
@@ -44,13 +46,16 @@ const handleStatic = (req, res) => {
     if (err) {
       resServerError(res)
     } else {
-      resFile200(res, file, contentType)
+      res200(res, file, contentType)
     }
   })
 }
 
 const handleSuggestions = (req, res) => {
   log('-handle- suggestions')
+  const search = qs.parse(req.url)['search']
+  const suggestions = filterSuggestions(data, search)
+  res200(res, JSON.stringify(suggestions), 'application/json')
 }
 
 const handlePageNotFound = res => {
@@ -70,7 +75,7 @@ const resResourceError = res => {
   res.end('<h1>404 Sorry Page Not Found<h1>')
 }
 
-const resFile200 = (res, file, contentType = 'text/html') => {
+const res200 = (res, file, contentType = 'text/html') => {
   res.writeHead(200, {'Content-Type': `${contentType}`})
   res.end(file)
 }
