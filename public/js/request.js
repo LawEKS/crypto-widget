@@ -1,15 +1,14 @@
 function getSuggestions(subString, renderer) {
-  console.log('user entered ' + subString)
-  console.log('fetching suggestions')
-
-  var resObj = {
-    asset_name: {
-      ticker: 'tic',
-      rank: 0
-    } // fake asset
-  } // fake response
-  
-  renderer(resObj)
+  var url = '/suggestions&search=' + subString
+  var xhr = new XMLHttpRequest()
+  xhr.onreadystatechange = function() {
+    if (this.readyState === 4 && this.status === 200) {
+      var resObj = JSON.parse(this.responseText)
+      renderer(resObj)
+    }
+  }
+  xhr.open('GET', url, true)
+  xhr.send()
 }
 
 function getOverview(idString, renderer) {
@@ -24,5 +23,3 @@ function getOverview(idString, renderer) {
 
   renderer(resObj)
 }
-
-console.log('request.js is running')

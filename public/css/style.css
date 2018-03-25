@@ -39,9 +39,16 @@ body {
 }
 
 .list {
+  list-style: none;
   padding: 0;
   border: 1px dashed green;
   min-width: 20rem;
+  max-height: 20rem;
+  overflow: scroll;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
 }
 
 .overview-container {
