@@ -9,8 +9,8 @@
   "scripts": {
     "test": "nyc tape test/toolkit.test.js | tap-spec",
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
-    "dev-test": "nodemon test/toolkit.test.js | tap-spec"
+    "dev": "nodemon --ignore '*.json' src/server.js",
+    "dev-test": "nodemon --ignore '*.json' test/toolkit.test.js | tap-spec"
   },
   "repository": {
     "type": "git",
