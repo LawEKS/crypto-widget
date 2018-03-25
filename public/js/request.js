@@ -11,6 +11,7 @@ function getSuggestions(subString, renderer) {
   
   renderer(resObj)
 }
+
 function getOverview(idString, renderer) {
   console.log('user selected ' + idString)
   console.log('fetching ' + idString + ' overview')
@@ -23,3 +24,5 @@ function getOverview(idString, renderer) {
 
   renderer(resObj)
 }
+
+console.log('request.js is running')

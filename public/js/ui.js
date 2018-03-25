@@ -9,3 +9,5 @@ function listenUserSelectItem () {
   var item = 'asset'
   getOverview(item)
 }
+
+console.log('ui.js is running')

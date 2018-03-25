@@ -13,3 +13,5 @@ function renderOverview(obj) {
   clearContainer(overviewContainer)
   console.log('rendering response')
 }
+
+console.log('render.js is running')
