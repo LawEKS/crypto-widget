@@ -4,6 +4,7 @@ const {
   handleIndex,
   handleStatic,
   handleSuggestions,
+  handleForecast,
   handlePageNotFound
 } =  require('./handler')
 
@@ -21,6 +22,8 @@ const router = (req, res) => {
       handleStatic(req, res)
     } else if (url.indexOf('/suggestions') !== -1) {
       handleSuggestions(req, res)
+    } else if (url.indexOf('/forecast') !== -1) {
+      handleForecast(req, res)
     } else {
       handlePageNotFound(res)
     }

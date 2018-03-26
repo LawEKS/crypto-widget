@@ -3,6 +3,7 @@ const qs = require('querystring')
 const path = require('path')
 const data = require('./data.json')
 const { filterSuggestions } = require('./toolkit')
+const { get } = require('https')
 
 const handleHome = (req, res) => {
   const filePath = path.join(__dirname, '..', 'public', 'index.html')
@@ -51,6 +52,20 @@ const handleSuggestions = (req, res) => {
   res200(res, JSON.stringify(suggestions), 'application/json')
 }
 
+const handleForecast = (req, res) => {
+  const ticker = qs.parse(req.url)['ticker']
+  const url = `https://coinbin.org/${ticker}/forecast`
+  get(url, apiRes => {
+    let body = ''
+    apiRes.on('data', chunk => {
+      body += chunk
+    })
+    apiRes.on('end', () => {
+      res200(res, body, 'application/json')
+    })
+  })
+}
+
 const handlePageNotFound = res => {
   resResourceError(res)
 }
@@ -77,5 +92,6 @@ module.exports = {
   handleIndex,
   handleStatic,
   handleSuggestions,
+  handleForecast,
   handlePageNotFound
 }

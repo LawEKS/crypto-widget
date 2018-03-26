@@ -11,17 +11,16 @@ const port = process.env.PORT || 3003
 
 const server = http.createServer(router)
 
-// TODO: make GET request to populate data.json
 const url = 'https://coinbin.org/coins'
 
 get(url, res => {
-  let json = ''
+  let body = ''
   res.on('data', chunk => {
-    json += chunk
+    body += chunk
   })
 
   res.on('end', () => {
-    const formattedData = JSON.stringify(formatApiData(JSON.parse(json)), null, 2)
+    const formattedData = JSON.stringify(formatApiData(JSON.parse(body)), null, 2)
     const filePath = path.join(__dirname, 'data.json')
     fs.writeFile(filePath, formattedData, err => {
       if (err) return error(err)
