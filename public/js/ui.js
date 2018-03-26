@@ -8,10 +8,16 @@ function listenUserSearchInput() {
   })
 }
 
-function listenUserSelectItem () {
-  console.log('listening for user selecting an item')
-  var item = 'asset'
-  getOverview(item)
+function listenUserSelectItem() {
+  var listContainer = document.querySelector('.list-container')
+  listContainer.addEventListener('click', function(e) {
+    var item = e.target
+    if (item.nodeName === 'UL' || item.nodeName === 'SECTION') return
+    var ticker = item.dataset.ticker
+    console.log(ticker)
+    getOverview(ticker)
+  })
 }
 
 listenUserSearchInput()
+listenUserSelectItem()
