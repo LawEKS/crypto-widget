@@ -4,6 +4,7 @@ const path = require('path')
 const data = require('./data.json')
 const { filterSuggestions } = require('./toolkit')
 const { get } = require('https')
+const { error } = console
 
 const handleHome = (req, res) => {
   const filePath = path.join(__dirname, '..', 'public', 'index.html')
