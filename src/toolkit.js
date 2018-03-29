@@ -1,5 +1,37 @@
 const fs = require('fs')
+const { get } = require('https')
 const { log, error } = console
+
+const getApiData = cb => {
+  get('https://coinbin.org/coins', res => {
+    const { statusCode } = res.statusCode
+    const contentType = res.headers['content-type']
+
+    let error
+    if (statusCode !== 200) {
+      error = new Error(`Request failed - Status Code: ${statusCode}`)
+    } else if (!/^application\/json/.test(contentType)) {
+      error = new Error(`Expected application/json but got ${contentType}`)
+    }
+
+    if (error) {
+      cb(error)
+      res.resume()
+      return
+    }
+
+    res.setEncoding('utf-8')
+    let body = ''
+    res.on('data', chunk => {
+      body += chunk
+    })
+    res.on('end', () => {
+      cb(null, body)
+    })
+  }).on('error', (e) => {
+    cb(e)
+  })
+}
 
 const formatApiData = resObj => {
   const coins = Object.keys(resObj.coins)
