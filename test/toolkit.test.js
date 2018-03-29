@@ -1,29 +1,49 @@
 const test = require('tape')
-const { formatApiData, filterSuggestions } = require('../src/toolkit')
+const nock = require('nock')
+const { formatApiData, filterSuggestions, getApiData } = require('../src/toolkit')
 const { 
   fakeApiResObj,
   dataFragment,
   getFragmentSubString
 } = require('./test-helper')
 
-test('Tape is working', assert => {
-  assert.pass('Tape is working')
-  assert.end()
+const mockResObj = {
+  "coins": {
+    "$$$": {
+      "btc": 2.6E-7, 
+      "name": "Money", 
+      "rank": 613, 
+      "ticker": "$$$", 
+      "usd": 0.00187
+    }, 
+    "$pac": {
+      "btc": 7.3E-7, 
+      "name": "PACcoin", 
+      "rank": 758, 
+      "ticker": "$pac", 
+      "usd": 0.005294
+    }
+  }
+}
+
+test('Tape is working', t => {
+  t.pass('Tape is working')
+  t.end()
 })
 
-test('Testing formatApiData', assert => {
+test('Testing formatApiData', t => {
   // test returns and object
   const formattedDataObj = formatApiData(fakeApiResObj)
-  assert.equal(
+  t.equal(
     typeof formattedDataObj,
     'object',
     'formatApiData should return an object')
 
   // test each key has an object
   if (Object.keys(formattedDataObj).length > 0) {
-    assert.pass('formatted data is populated')
+    t.pass('formatted data is populated')
   } else {
-    assert.fail('formatted data is not populated')
+    t.fail('formatted data is not populated')
   }
 
   // test each object has two keys
@@ -32,35 +52,50 @@ test('Testing formatApiData', assert => {
     return sum + Object.keys(formattedDataObj[coin]).length
   }, 0)
   const avgNumOfProps = Math.ceil(sumOfProps / coins.length)
-  assert.equals(avgNumOfProps, 2, 'each inner object should have two properties')
-  assert.end()
+  t.equals(avgNumOfProps, 2, 'each inner object should have two properties')
+  t.end()
 
 })
 
-test('Testing filterSuggestions', assert => {
+test('Testing filterSuggestions', t => {
   // test returns and object
   const filteredSuggestions = filterSuggestions(dataFragment, getFragmentSubString())
-  assert.equals(
+  t.equals(
     typeof filteredSuggestions,
     'object',
     'filterSuggestions should return an object')
 
     if (Object.keys(filteredSuggestions).length > 0) {
-      assert.pass('returns suggestions that match the search')
+      t.pass('returns suggestions that match the search')
     } else {
-      assert.fail('does not return with suggestions')
+      t.fail('does not return with suggestions')
     }
 
-    assert.equals(
+    t.equals(
       Object.keys(filterSuggestions(dataFragment, '')).length,
       Object.keys({}).length,
       'returns and empty object if an empty string is supplied')
       
-      assert.equals(
+      t.equals(
         Object.keys(filterSuggestions(dataFragment, 'kk')).length,
         Object.keys({}).length,
         'returns and empty object if no match is found')
     
 
-    assert.end()
+    t.end()
+})
+
+test.only('Testing getApiData', t => {
+  nock('https://coinbin.org')
+    .get('/coins')
+    .reply(200, mockResObj)
+
+    getApiData((err, data) => {
+      if (err) {
+        t.error(err, 'There is a problem with the request')
+      } else {
+        t.deepEqual(data, JSON.stringify(mockResObj), 'Nock intercepts request')
+      }
+    })
+  t.end()
 })

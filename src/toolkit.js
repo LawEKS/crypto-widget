@@ -4,7 +4,7 @@ const { log, error } = console
 
 const getApiData = cb => {
   get('https://coinbin.org/coins', res => {
-    const { statusCode } = res.statusCode
+    const { statusCode } = res
     const contentType = res.headers['content-type']
 
     let error
@@ -62,5 +62,6 @@ const filterSuggestions = (dataObj, subString) => {
 
 module.exports = {
   formatApiData,
-  filterSuggestions
+  filterSuggestions,
+  getApiData
 }
