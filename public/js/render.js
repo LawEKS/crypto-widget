@@ -19,8 +19,6 @@ function renderSuggestion(obj) {
 
   container.replaceChild(newList, oldList)
   var search = document.querySelector('.search')
-  search.style.setProperty('box-shadow', 'none');
-  search.style.setProperty('border-radius', '.2rem .2rem 0 0');
   console.log('rendering response')
 }
 

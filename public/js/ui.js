@@ -11,6 +11,9 @@ function listenUserSearchInput() {
 function listenUserSelectItem() {
   var listContainer = document.querySelector('.list-container')
   listContainer.addEventListener('click', function(e) {
+    var text = e.target.textContent
+    var input = document.querySelector('.search')
+    input.value = text
     var item = e.target
     if (item.nodeName === 'UL' || item.nodeName === 'SECTION') return
     var ticker = item.dataset.ticker
