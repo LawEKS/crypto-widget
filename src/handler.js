@@ -44,23 +44,28 @@ const handleForecast = (req, res) => {
   const ticker = qs.parse(req.url)['ticker']
   const url = `https://coinbin.org/${ticker}/forecast`
   get(url, apiRes => {
+    apiRes.setEncoding('utf-8')
     let body = ''
-    apiRes.on('data', chunk => {
+    
+    apiRes.on('data', chunk => {      
       body += chunk
     })
+
     apiRes.on('end', () => {
-      res200(res, body, 'application/json')
+      const contentType = apiRes.headers['content-type']
+      if (contentType === 'text/html') {
+        res.writeHead(500, {'Content-Type': 'text/plain'})
+        res.end('Sorry something went wrong')
+      } else {
+        res200(res, body, `${contentType}`)
+      }
+      
+    }).on('error', e => {
+      res.writeHead(500, {'Content-Type':'text/plain'})
+      res.write('Sorry something went wrong')
+      res.end(e.message)
     })
   })
-}
-
-const handlePageNotFound = res => {
-  resResourceError(res)
-}
-
-const resServerError = res => {
-  res.writeHead(500, {'Content-Type':'text/html'})
-  res.end('<h1>500 Sorry Server Error<h1>')
 }
 
 const resResourceError = res => {
@@ -76,6 +81,5 @@ const res200 = (res, file, contentType) => {
 module.exports = {
   handleStatic,
   handleSuggestions,
-  handleForecast,
-  handlePageNotFound
+  handleForecast
 }
