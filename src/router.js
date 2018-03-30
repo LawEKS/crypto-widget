@@ -12,7 +12,7 @@ const router = (req, res) => {
   log()
   if (req.method === 'GET') {
     const url = req.url
-    log(`-GET- ${url}`)
+    // log(`-GET- ${url}`)
 
     if (url === '/') {
       handleHome(req, res)

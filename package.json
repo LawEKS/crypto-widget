@@ -11,7 +11,8 @@
     "start": "node src/server.js",
     "dev": "nodemon --ignore '*.json' src/server.js",
     "test-router": "nodemon test/router.test.js | tap-spec",
-    "test-toolkit": "nodemon  test/toolkit.test.js | tap-spec"
+    "test-handler": "nodemon test/handler.test.js | tap-spec",
+    "test-toolkit": "nodemon test/toolkit.test.js | tap-spec"
   },
   "repository": {
     "type": "git",

@@ -10,7 +10,7 @@ const handleHome = (req, res) => {
   const filePath = path.join(__dirname, '..', 'public', 'index.html')
   fs.readFile(filePath, (err, file) => {
     if (err) {
-      resServerError(res)
+      resResourceError(res)
     } else {
       res200(res, file)
     }
@@ -21,7 +21,7 @@ const handleIndex = (req, res) => {
   const filePath = path.join(__dirname, '..', 'public', 'index.html')
   fs.readFile(filePath, (err, file) => {
     if (err) {
-      resServerError(res)
+      resResourceError(res)
     } else {
       res200(res, file)
     }
@@ -29,6 +29,15 @@ const handleIndex = (req, res) => {
 }
 
 const handleStatic = (req, res) => {
+  // const basePath = './public'
+  // const basePath = './'
+  // let endpoint
+  // const { url } = req
+  // if (url = '/') {
+
+  // }
+
+
   const ext = req.url.split('.')[1]
   const contentType = {
     html: 'text/html',
@@ -40,7 +49,7 @@ const handleStatic = (req, res) => {
   const filePath = path.join(__dirname, '..', req.url)
   fs.readFile(filePath, (err, file) => {
     if (err) {
-      resServerError(res)
+      resResourceError(res)
     } else {
       res200(res, file, contentType)
     }
@@ -72,13 +81,11 @@ const handlePageNotFound = res => {
 }
 
 const resServerError = res => {
-  error('500 something went wrong')
   res.writeHead(500, {'Content-Type':'text/html'})
   res.end('<h1>500 Sorry Server Error<h1>')
 }
 
 const resResourceError = res => {
-  error('404 something went wrong')
   res.writeHead(404, {'Content-Type':'text/html'})
   res.end('<h1>404 Sorry Page Not Found<h1>')
 }
