@@ -8,7 +8,7 @@ test('Test \'/\' route', t => {
     .expect(200)
     .expect('content-type', /html/)
     .end((err, res) => {
-      t.error(err, 'Status Code: 200, Content-Type: text/css')
+      t.error(err, 'Status Code: 200, Content-Type: text/html')
       t.end()
     })
 })

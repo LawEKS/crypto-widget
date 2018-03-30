@@ -1,7 +1,5 @@
 const { log } = console
 const {
-  handleHome,
-  handleIndex,
   handleStatic,
   handleSuggestions,
   handleForecast,
@@ -9,15 +7,12 @@ const {
 } =  require('./handler')
 
 const router = (req, res) => {
-  log()
   if (req.method === 'GET') {
     const url = req.url
-    // log(`-GET- ${url}`)
-
     if (url === '/') {
-      handleHome(req, res)
+      handleStatic(req, res)
     } else if(url === '/index.html') {
-      handleIndex(req, res)
+      handleStatic(req, res)
     } else if (url.indexOf('/public') !== -1) {
       handleStatic(req, res)
     } else if (url.indexOf('/suggestions') !== -1) {

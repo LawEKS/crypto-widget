@@ -6,47 +6,25 @@ const { filterSuggestions } = require('./toolkit')
 const { get } = require('https')
 const { error } = console
 
-const handleHome = (req, res) => {
-  const filePath = path.join(__dirname, '..', 'public', 'index.html')
-  fs.readFile(filePath, (err, file) => {
-    if (err) {
-      resResourceError(res)
-    } else {
-      res200(res, file)
-    }
-  })
-}
-
-const handleIndex = (req, res) => {
-  const filePath = path.join(__dirname, '..', 'public', 'index.html')
-  fs.readFile(filePath, (err, file) => {
-    if (err) {
-      resResourceError(res)
-    } else {
-      res200(res, file)
-    }
-  })
-}
-
 const handleStatic = (req, res) => {
-  // const basePath = './public'
-  // const basePath = './'
-  // let endpoint
-  // const { url } = req
-  // if (url = '/') {
+  const { url } = req
 
-  // }
+  let basePath = path.resolve('./')
+  let resource = url.replace(/^(\.+[\/\\])+/, '') // removes all ./ and ../
 
+  if (url === '/' || url === '/index.html') {
+     basePath = path.resolve('./public')
+     resource = '/index.html'
+  }
 
-  const ext = req.url.split('.')[1]
+  const ext = resource.split('.')[1]
   const contentType = {
     html: 'text/html',
     css: 'text/css',
-    js: 'application/javascript',
-    ico: 'image/x-icon'
+    js: 'application/javascript'
   }[ext]
-
-  const filePath = path.join(__dirname, '..', req.url)
+  
+  const filePath = path.join(basePath, resource)
   fs.readFile(filePath, (err, file) => {
     if (err) {
       resResourceError(res)
@@ -90,14 +68,12 @@ const resResourceError = res => {
   res.end('<h1>404 Sorry Page Not Found<h1>')
 }
 
-const res200 = (res, file, contentType = 'text/html') => {
+const res200 = (res, file, contentType) => {
   res.writeHead(200, {'Content-Type': `${contentType}`})
   res.end(file)
 }
 
 module.exports = {
-  handleHome,
-  handleIndex,
   handleStatic,
   handleSuggestions,
   handleForecast,
