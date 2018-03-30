@@ -1,5 +1,7 @@
 const test = require('tape')
 const nock = require('nock')
+const supertest = require('supertest')
+const router = require('./../src/router')
 const { formatApiData, filterSuggestions, getApiData } = require('../src/toolkit')
 const { 
   fakeApiResObj,
@@ -7,7 +9,7 @@ const {
   getFragmentSubString
 } = require('./test-helper')
 
-const mockResObj = {
+const nockResObj = {
   "coins": {
     "$$$": {
       "btc": 2.6E-7, 
@@ -31,71 +33,86 @@ test('Tape is working', t => {
   t.end()
 })
 
-test('Testing formatApiData', t => {
-  // test returns and object
-  const formattedDataObj = formatApiData(fakeApiResObj)
-  t.equal(
-    typeof formattedDataObj,
-    'object',
-    'formatApiData should return an object')
+// test('Testing formatApiData', t => {
+//   // test returns and object
+//   const formattedDataObj = formatApiData(fakeApiResObj)
+//   t.equal(
+//     typeof formattedDataObj,
+//     'object',
+//     'formatApiData should return an object')
 
-  // test each key has an object
-  if (Object.keys(formattedDataObj).length > 0) {
-    t.pass('formatted data is populated')
-  } else {
-    t.fail('formatted data is not populated')
-  }
+//   // test each key has an object
+//   if (Object.keys(formattedDataObj).length > 0) {
+//     t.pass('formatted data is populated')
+//   } else {
+//     t.fail('formatted data is not populated')
+//   }
 
-  // test each object has two keys
-  const coins = Object.keys(formattedDataObj)
-  const sumOfProps = coins.reduce((sum, coin) => {
-    return sum + Object.keys(formattedDataObj[coin]).length
-  }, 0)
-  const avgNumOfProps = Math.ceil(sumOfProps / coins.length)
-  t.equals(avgNumOfProps, 2, 'each inner object should have two properties')
-  t.end()
+//   // test each object has two keys
+//   const coins = Object.keys(formattedDataObj)
+//   const sumOfProps = coins.reduce((sum, coin) => {
+//     return sum + Object.keys(formattedDataObj[coin]).length
+//   }, 0)
+//   const avgNumOfProps = Math.ceil(sumOfProps / coins.length)
+//   t.equals(avgNumOfProps, 2, 'each inner object should have two properties')
+//   t.end()
 
-})
+// })
 
-test('Testing filterSuggestions', t => {
-  // test returns and object
-  const filteredSuggestions = filterSuggestions(dataFragment, getFragmentSubString())
-  t.equals(
-    typeof filteredSuggestions,
-    'object',
-    'filterSuggestions should return an object')
+// test('Testing filterSuggestions', t => {
+//   // test returns and object
+//   const filteredSuggestions = filterSuggestions(dataFragment, getFragmentSubString())
+//   t.equals(
+//     typeof filteredSuggestions,
+//     'object',
+//     'filterSuggestions should return an object')
 
-    if (Object.keys(filteredSuggestions).length > 0) {
-      t.pass('returns suggestions that match the search')
-    } else {
-      t.fail('does not return with suggestions')
-    }
+//     if (Object.keys(filteredSuggestions).length > 0) {
+//       t.pass('returns suggestions that match the search')
+//     } else {
+//       t.fail('does not return with suggestions')
+//     }
 
-    t.equals(
-      Object.keys(filterSuggestions(dataFragment, '')).length,
-      Object.keys({}).length,
-      'returns and empty object if an empty string is supplied')
+//     t.equals(
+//       Object.keys(filterSuggestions(dataFragment, '')).length,
+//       Object.keys({}).length,
+//       'returns and empty object if an empty string is supplied')
       
-      t.equals(
-        Object.keys(filterSuggestions(dataFragment, 'kk')).length,
-        Object.keys({}).length,
-        'returns and empty object if no match is found')
+//       t.equals(
+//         Object.keys(filterSuggestions(dataFragment, 'kk')).length,
+//         Object.keys({}).length,
+//         'returns and empty object if no match is found')
     
 
-    t.end()
-})
+//     t.end()
+// })
 
-test.only('Testing getApiData', t => {
+test('Testing getApiData', t => {
   nock('https://coinbin.org')
     .get('/coins')
-    .reply(200, mockResObj)
+    .reply(200, nockResObj)
 
     getApiData((err, data) => {
       if (err) {
         t.error(err, 'There is a problem with the request')
       } else {
-        t.deepEqual(data, JSON.stringify(mockResObj), 'Nock intercepts request')
+        t.deepEqual(data, JSON.stringify(nockResObj), 'Nock intercepts request')
       }
     })
   t.end()
+})
+
+test('Testing home route', t => {
+  supertest(router)
+    .get('/')
+    .expect('content-type', /html/)
+    .expect(200)
+    .end((err, res) => {
+      if (err) {
+        t.error(err, 'There was a problem reading index.html')
+      } else {  
+        t.equal(res.status, 200, 'home route responds successfully')
+      }
+      t.end()
+    })
 })
