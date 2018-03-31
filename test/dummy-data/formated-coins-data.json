@@ -1,0 +1,3646 @@
+{
+  "42-coin": {
+    "rank": 439,
+    "ticker": "42"
+  },
+  "SixEleven": {
+    "rank": 585,
+    "ticker": "611"
+  },
+  "808Coin": {
+    "rank": 389,
+    "ticker": "808"
+  },
+  "OctoCoin": {
+    "rank": 537,
+    "ticker": "888"
+  },
+  "Elite": {
+    "rank": 219,
+    "ticker": "1337"
+  },
+  "Money": {
+    "rank": 617,
+    "ticker": "$$$"
+  },
+  "PACcoin": {
+    "rank": 759,
+    "ticker": "$pac"
+  },
+  "2GIVE": {
+    "rank": 232,
+    "ticker": "2give"
+  },
+  "8Bit": {
+    "rank": 513,
+    "ticker": "8bit"
+  },
+  "Abjcoin": {
+    "rank": 360,
+    "ticker": "abj"
+  },
+  "Abncoin": {
+    "rank": 725,
+    "ticker": "abn"
+  },
+  "ArtByte": {
+    "rank": 189,
+    "ticker": "aby"
+  },
+  "AsiaCoin": {
+    "rank": 168,
+    "ticker": "ac"
+  },
+  "ACChain": {
+    "rank": 770,
+    "ticker": "acc"
+  },
+  "Aces": {
+    "rank": 812,
+    "ticker": "aces"
+  },
+  "Avoncoin": {
+    "rank": 890,
+    "ticker": "acn"
+  },
+  "Acoin": {
+    "rank": 609,
+    "ticker": "acoin"
+  },
+  "AnarchistsPrime": {
+    "rank": 696,
+    "ticker": "acp"
+  },
+  "Achain": {
+    "rank": 47,
+    "ticker": "act"
+  },
+  "Cardano": {
+    "rank": 6,
+    "ticker": "ada"
+  },
+  "AudioCoin": {
+    "rank": 241,
+    "ticker": "adc"
+  },
+  "Asiadigicoin": {
+    "rank": 631,
+    "ticker": "adcn"
+  },
+  "Aidos Kuneen": {
+    "rank": 747,
+    "ticker": "adk"
+  },
+  "Adzcoin": {
+    "rank": 295,
+    "ticker": "adz"
+  },
+  "Aeon": {
+    "rank": 87,
+    "ticker": "aeon"
+  },
+  "Aerium": {
+    "rank": 522,
+    "ticker": "aerm"
+  },
+  "Advanced Inte...": {
+    "rank": 493,
+    "ticker": "aib"
+  },
+  "Akuya Coin": {
+    "rank": 793,
+    "ticker": "aky"
+  },
+  "Allion": {
+    "rank": 402,
+    "ticker": "all"
+  },
+  "ALQO": {
+    "rank": 135,
+    "ticker": "alqo"
+  },
+  "Antilitecoin": {
+    "rank": 705,
+    "ticker": "altc"
+  },
+  "SONO": {
+    "rank": 689,
+    "ticker": "altcom"
+  },
+  "AmberCoin": {
+    "rank": 485,
+    "ticker": "amber"
+  },
+  "Ammo Reloaded": {
+    "rank": 541,
+    "ticker": "ammo"
+  },
+  "AmsterdamCoin": {
+    "rank": 560,
+    "ticker": "ams"
+  },
+  "Anoncoin": {
+    "rank": 444,
+    "ticker": "anc"
+  },
+  "Animecoin": {
+    "rank": 783,
+    "ticker": "ani"
+  },
+  "AntiBitcoin": {
+    "rank": 614,
+    "ticker": "anti"
+  },
+  "Antimatter": {
+    "rank": 847,
+    "ticker": "antx"
+  },
+  "AlpaCoin": {
+    "rank": 808,
+    "ticker": "apc"
+  },
+  "ARbit": {
+    "rank": 668,
+    "ticker": "arb"
+  },
+  "ArcticCoin": {
+    "rank": 298,
+    "ticker": "arc"
+  },
+  "AquariusCoin": {
+    "rank": 363,
+    "ticker": "arco"
+  },
+  "Ardor": {
+    "rank": 31,
+    "ticker": "ardr"
+  },
+  "Argentum": {
+    "rank": 303,
+    "ticker": "arg"
+  },
+  "Argus": {
+    "rank": 709,
+    "ticker": "argus"
+  },
+  "Aricoin": {
+    "rank": 495,
+    "ticker": "ari"
+  },
+  "Ark": {
+    "rank": 33,
+    "ticker": "ark"
+  },
+  "AllSafe": {
+    "rank": 579,
+    "ticker": "asafe2"
+  },
+  "Aseancoin": {
+    "rank": 818,
+    "ticker": "asn"
+  },
+  "ATBCoin": {
+    "rank": 152,
+    "ticker": "atb"
+  },
+  "ATMCoin": {
+    "rank": 731,
+    "ticker": "atmc"
+  },
+  "Atmos": {
+    "rank": 188,
+    "ticker": "atms"
+  },
+  "Atomic Coin": {
+    "rank": 545,
+    "ticker": "atom"
+  },
+  "Artex Coin": {
+    "rank": 658,
+    "ticker": "atx"
+  },
+  "AurumCoin": {
+    "rank": 431,
+    "ticker": "au"
+  },
+  "Auroracoin": {
+    "rank": 143,
+    "ticker": "aur"
+  },
+  "AvatarCoin": {
+    "rank": 780,
+    "ticker": "av"
+  },
+  "Axiom": {
+    "rank": 838,
+    "ticker": "axiom"
+  },
+  "SegWit2x": {
+    "rank": 760,
+    "ticker": "b2x"
+  },
+  "BitAlphaCoin": {
+    "rank": 872,
+    "ticker": "bac"
+  },
+  "LuckChain": {
+    "rank": 221,
+    "ticker": "bash"
+  },
+  "BatCoin": {
+    "rank": 841,
+    "ticker": "bat"
+  },
+  "BitBay": {
+    "rank": 71,
+    "ticker": "bay"
+  },
+  "BiblePay": {
+    "rank": 300,
+    "ticker": "bbp"
+  },
+  "Boolberry": {
+    "rank": 133,
+    "ticker": "bbr"
+  },
+  "Bitcoin Atom": {
+    "rank": 137,
+    "ticker": "bca"
+  },
+  "BitConnect": {
+    "rank": 149,
+    "ticker": "bcc"
+  },
+  "Bitcoin Diamond": {
+    "rank": 25,
+    "ticker": "bcd"
+  },
+  "Bitcoin Fast": {
+    "rank": 521,
+    "ticker": "bcf"
+  },
+  "Bitcoin Cash": {
+    "rank": 4,
+    "ticker": "bch"
+  },
+  "Bytecoin": {
+    "rank": 20,
+    "ticker": "bcn"
+  },
+  "BridgeCoin": {
+    "rank": 68,
+    "ticker": "bco"
+  },
+  "BitcoinX": {
+    "rank": 740,
+    "ticker": "bcx"
+  },
+  "Bitdeal": {
+    "rank": 331,
+    "ticker": "bdl"
+  },
+  "Bela": {
+    "rank": 220,
+    "ticker": "bela"
+  },
+  "BenjiRolls": {
+    "rank": 627,
+    "ticker": "benji"
+  },
+  "BERNcash": {
+    "rank": 536,
+    "ticker": "bern"
+  },
+  "BestChain": {
+    "rank": 892,
+    "ticker": "best"
+  },
+  "BetaCoin": {
+    "rank": 861,
+    "ticker": "bet"
+  },
+  "BigUp": {
+    "rank": 477,
+    "ticker": "bigup"
+  },
+  "BioCoin": {
+    "rank": 187,
+    "ticker": "bio"
+  },
+  "BioBar": {
+    "rank": 710,
+    "ticker": "biob"
+  },
+  "BiosCrypto": {
+    "rank": 673,
+    "ticker": "bios"
+  },
+  "BipCoin": {
+    "rank": 619,
+    "ticker": "bip"
+  },
+  "Birds": {
+    "rank": 822,
+    "ticker": "birds"
+  },
+  "Bismuth": {
+    "rank": 124,
+    "ticker": "bis"
+  },
+  "First Bitcoin": {
+    "rank": 862,
+    "ticker": "bit"
+  },
+  "Bean Cash": {
+    "rank": 102,
+    "ticker": "bitb"
+  },
+  "Bitcoin Green": {
+    "rank": 262,
+    "ticker": "bitg"
+  },
+  "Bitok": {
+    "rank": 884,
+    "ticker": "bitok"
+  },
+  "Bitstar": {
+    "rank": 460,
+    "ticker": "bits"
+  },
+  "Bitz": {
+    "rank": 497,
+    "ticker": "bitz"
+  },
+  "BlazerCoin": {
+    "rank": 767,
+    "ticker": "blazr"
+  },
+  "Blakecoin": {
+    "rank": 547,
+    "ticker": "blc"
+  },
+  "Blitzcash": {
+    "rank": 246,
+    "ticker": "blitz"
+  },
+  "BlackCoin": {
+    "rank": 109,
+    "ticker": "blk"
+  },
+  "Blocknet": {
+    "rank": 55,
+    "ticker": "block"
+  },
+  "BillaryCoin": {
+    "rank": 632,
+    "ticker": "blry"
+  },
+  "BlueCoin": {
+    "rank": 257,
+    "ticker": "blu"
+  },
+  "BlazeCoin": {
+    "rank": 482,
+    "ticker": "blz"
+  },
+  "BnrtxCoin": {
+    "rank": 633,
+    "ticker": "bnx"
+  },
+  "BOAT": {
+    "rank": 670,
+    "ticker": "boat"
+  },
+  "Bolivarcoin": {
+    "rank": 531,
+    "ticker": "boli"
+  },
+  "BOScoin": {
+    "rank": 62,
+    "ticker": "bos"
+  },
+  "BoostCoin": {
+    "rank": 561,
+    "ticker": "bost"
+  },
+  "Blockpool": {
+    "rank": 424,
+    "ticker": "bpl"
+  },
+  "Braincoin": {
+    "rank": 684,
+    "ticker": "brain"
+  },
+  "BriaCoin": {
+    "rank": 379,
+    "ticker": "bria"
+  },
+  "BritCoin": {
+    "rank": 448,
+    "ticker": "brit"
+  },
+  "Breakout": {
+    "rank": 233,
+    "ticker": "brk"
+  },
+  "Bitradio": {
+    "rank": 326,
+    "ticker": "bro"
+  },
+  "Breakout Stake": {
+    "rank": 196,
+    "ticker": "brx"
+  },
+  "BowsCoin": {
+    "rank": 656,
+    "ticker": "bsc"
+  },
+  "BitSend": {
+    "rank": 134,
+    "ticker": "bsd"
+  },
+  "Bastonet": {
+    "rank": 816,
+    "ticker": "bsn"
+  },
+  "BitSoar": {
+    "rank": 751,
+    "ticker": "bsr"
+  },
+  "Blackstar": {
+    "rank": 608,
+    "ticker": "bstar"
+  },
+  "GlobalBoost-Y": {
+    "rank": 578,
+    "ticker": "bsty"
+  },
+  "BT2 [CST]": {
+    "rank": 779,
+    "ticker": "bt2"
+  },
+  "Bata": {
+    "rank": 336,
+    "ticker": "bta"
+  },
+  "BitBar": {
+    "rank": 491,
+    "ticker": "btb"
+  },
+  "Bitbase": {
+    "rank": 885,
+    "ticker": "btbc"
+  },
+  "Bitcoin": {
+    "rank": 1,
+    "ticker": "btc"
+  },
+  "BitcoinDark": {
+    "rank": 57,
+    "ticker": "btcd"
+  },
+  "Bitcoin Private": {
+    "rank": 746,
+    "ticker": "btcp"
+  },
+  "Bitcurrency": {
+    "rank": 489,
+    "ticker": "btcr"
+  },
+  "Bitcoin Scrypt": {
+    "rank": 353,
+    "ticker": "btcs"
+  },
+  "BitcoinZ": {
+    "rank": 193,
+    "ticker": "btcz"
+  },
+  "Bitcloud": {
+    "rank": 214,
+    "ticker": "btdx"
+  },
+  "Bitgem": {
+    "rank": 508,
+    "ticker": "btg"
+  },
+  "Bitmark": {
+    "rank": 199,
+    "ticker": "btm"
+  },
+  "Bitcoin Planet": {
+    "rank": 635,
+    "ticker": "btpl"
+  },
+  "BitQuark": {
+    "rank": 639,
+    "ticker": "btq"
+  },
+  "BitShares": {
+    "rank": 26,
+    "ticker": "bts"
+  },
+  "BitWhite": {
+    "rank": 252,
+    "ticker": "btw"
+  },
+  "Bitcore": {
+    "rank": 53,
+    "ticker": "btx"
+  },
+  "Bubble": {
+    "rank": 819,
+    "ticker": "bub"
+  },
+  "SwagBucks": {
+    "rank": 484,
+    "ticker": "bucks"
+  },
+  "BumbaCoin": {
+    "rank": 400,
+    "ticker": "bumba"
+  },
+  "BunnyCoin": {
+    "rank": 212,
+    "ticker": "bun"
+  },
+  "Burst": {
+    "rank": 85,
+    "ticker": "burst"
+  },
+  "BuzzCoin": {
+    "rank": 288,
+    "ticker": "buzz"
+  },
+  "Bulwark": {
+    "rank": 183,
+    "ticker": "bwk"
+  },
+  "Bitcedi": {
+    "rank": 652,
+    "ticker": "bxc"
+  },
+  "BitTokens": {
+    "rank": 442,
+    "ticker": "bxt"
+  },
+  "Bytecent": {
+    "rank": 328,
+    "ticker": "byc"
+  },
+  "Coin2.1": {
+    "rank": 570,
+    "ticker": "c2"
+  },
+  "Cabbage": {
+    "rank": 367,
+    "ticker": "cab"
+  },
+  "CacheCoin": {
+    "rank": 399,
+    "ticker": "cach"
+  },
+  "CaliphCoin": {
+    "rank": 724,
+    "ticker": "calc"
+  },
+  "CannabisCoin": {
+    "rank": 234,
+    "ticker": "cann"
+  },
+  "Carboncoin": {
+    "rank": 427,
+    "ticker": "carbon"
+  },
+  "Cashcoin": {
+    "rank": 315,
+    "ticker": "cash"
+  },
+  "Catcoin": {
+    "rank": 586,
+    "ticker": "cat"
+  },
+  "Bullion": {
+    "rank": 276,
+    "ticker": "cbx"
+  },
+  "CyberCoin": {
+    "rank": 907,
+    "ticker": "cc"
+  },
+  "CannaCoin": {
+    "rank": 519,
+    "ticker": "ccn"
+  },
+  "CryptoCarbon": {
+    "rank": 325,
+    "ticker": "ccrb"
+  },
+  "Canada eCoin": {
+    "rank": 454,
+    "ticker": "cdn"
+  },
+  "CryptoEscudo": {
+    "rank": 651,
+    "ticker": "cesc"
+  },
+  "Californium": {
+    "rank": 612,
+    "ticker": "cf"
+  },
+  "CoffeeCoin": {
+    "rank": 850,
+    "ticker": "cfc"
+  },
+  "ChanCoin": {
+    "rank": 387,
+    "ticker": "chan"
+  },
+  "ChatCoin": {
+    "rank": 735,
+    "ticker": "chat"
+  },
+  "ChainCoin": {
+    "rank": 261,
+    "ticker": "chc"
+  },
+  "Cheapcoin": {
+    "rank": 903,
+    "ticker": "cheap"
+  },
+  "ChessCoin": {
+    "rank": 516,
+    "ticker": "chess"
+  },
+  "CHIPS": {
+    "rank": 169,
+    "ticker": "chips"
+  },
+  "Cryptojacks": {
+    "rank": 364,
+    "ticker": "cj"
+  },
+  "Clams": {
+    "rank": 142,
+    "ticker": "clam"
+  },
+  "CloakCoin": {
+    "rank": 82,
+    "ticker": "cloak"
+  },
+  "ClubCoin": {
+    "rank": 757,
+    "ticker": "club"
+  },
+  "Cashme": {
+    "rank": 796,
+    "ticker": "cme"
+  },
+  "Compcoin": {
+    "rank": 865,
+    "ticker": "cmp"
+  },
+  "CampusCoin": {
+    "rank": 216,
+    "ticker": "cmpco"
+  },
+  "Comet": {
+    "rank": 613,
+    "ticker": "cmt"
+  },
+  "Cannation": {
+    "rank": 636,
+    "ticker": "cnnc"
+  },
+  "Coin(O)": {
+    "rank": 500,
+    "ticker": "cno"
+  },
+  "Centurion": {
+    "rank": 330,
+    "ticker": "cnt"
+  },
+  "Cryptonex": {
+    "rank": 32,
+    "ticker": "cnx"
+  },
+  "BitCoal": {
+    "rank": 597,
+    "ticker": "coal"
+  },
+  "ColossusXT": {
+    "rank": 144,
+    "ticker": "colx"
+  },
+  "PayCon": {
+    "rank": 598,
+    "ticker": "con"
+  },
+  "Concoin": {
+    "rank": 722,
+    "ticker": "conx"
+  },
+  "Coupecoin": {
+    "rank": 714,
+    "ticker": "coupe"
+  },
+  "Capricoin": {
+    "rank": 299,
+    "ticker": "cpc"
+  },
+  "CompuCoin": {
+    "rank": 645,
+    "ticker": "cpn"
+  },
+  "Crave": {
+    "rank": 243,
+    "ticker": "crave"
+  },
+  "CrowdCoin": {
+    "rank": 302,
+    "ticker": "crc"
+  },
+  "Credence Coin": {
+    "rank": 701,
+    "ticker": "crdnc"
+  },
+  "Creativecoin": {
+    "rank": 270,
+    "ticker": "crea"
+  },
+  "CrevaCoin": {
+    "rank": 713,
+    "ticker": "creva"
+  },
+  "Cream": {
+    "rank": 443,
+    "ticker": "crm"
+  },
+  "CRTCoin": {
+    "rank": 691,
+    "ticker": "crt"
+  },
+  "Crown": {
+    "rank": 88,
+    "ticker": "crw"
+  },
+  "Chronos": {
+    "rank": 611,
+    "ticker": "crx"
+  },
+  "CryptCoin": {
+    "rank": 806,
+    "ticker": "crypt"
+  },
+  "CasinoCoin": {
+    "rank": 74,
+    "ticker": "csc"
+  },
+  "Coimatic 2.0": {
+    "rank": 717,
+    "ticker": "ctic2"
+  },
+  "Crypto": {
+    "rank": 641,
+    "ticker": "cto"
+  },
+  "DigiCube": {
+    "rank": 362,
+    "ticker": "cube"
+  },
+  "Curecoin": {
+    "rank": 181,
+    "ticker": "cure"
+  },
+  "CryptoWorldX ...": {
+    "rank": 686,
+    "ticker": "cwxt"
+  },
+  "Coinonat": {
+    "rank": 626,
+    "ticker": "cxt"
+  },
+  "Cycling Coin": {
+    "rank": 878,
+    "ticker": "cyc"
+  },
+  "Cyder": {
+    "rank": 797,
+    "ticker": "cyder"
+  },
+  "Cypher": {
+    "rank": 520,
+    "ticker": "cyp"
+  },
+  "Dash": {
+    "rank": 11,
+    "ticker": "dash"
+  },
+  "Dashs": {
+    "rank": 875,
+    "ticker": "dashs"
+  },
+  "DavorCoin": {
+    "rank": 786,
+    "ticker": "dav"
+  },
+  "DaxxCoin": {
+    "rank": 359,
+    "ticker": "daxx"
+  },
+  "Digital Bulli...": {
+    "rank": 888,
+    "ticker": "dbg"
+  },
+  "DubaiCoin": {
+    "rank": 156,
+    "ticker": "dbix"
+  },
+  "Debitcoin": {
+    "rank": 637,
+    "ticker": "dbtc"
+  },
+  "Decred": {
+    "rank": 28,
+    "ticker": "dcr"
+  },
+  "DeltaCredits": {
+    "rank": 889,
+    "ticker": "dcre"
+  },
+  "DECENT": {
+    "rank": 99,
+    "ticker": "dct"
+  },
+  "Dinastycoin": {
+    "rank": 319,
+    "ticker": "dcy"
+  },
+  "Deutsche eMark": {
+    "rank": 339,
+    "ticker": "dem"
+  },
+  "Destiny": {
+    "rank": 681,
+    "ticker": "des"
+  },
+  "DeusCoin": {
+    "rank": 304,
+    "ticker": "deus"
+  },
+  "DFSCoin": {
+    "rank": 324,
+    "ticker": "dfs"
+  },
+  "DraftCoin": {
+    "rank": 301,
+    "ticker": "dft"
+  },
+  "DigiByte": {
+    "rank": 36,
+    "ticker": "dgb"
+  },
+  "Digitalcoin": {
+    "rank": 340,
+    "ticker": "dgc"
+  },
+  "Digital Credits": {
+    "rank": 726,
+    "ticker": "dgcs"
+  },
+  "Dimecoin": {
+    "rank": 112,
+    "ticker": "dime"
+  },
+  "DarkLisk": {
+    "rank": 893,
+    "ticker": "disk"
+  },
+  "Dollarcoin": {
+    "rank": 574,
+    "ticker": "dlc"
+  },
+  "DAPPSTER": {
+    "rank": 646,
+    "ticker": "dlisk"
+  },
+  "Digital Money...": {
+    "rank": 415,
+    "ticker": "dmb"
+  },
+  "DynamicCoin": {
+    "rank": 789,
+    "ticker": "dmc"
+  },
+  "Diamond": {
+    "rank": 110,
+    "ticker": "dmd"
+  },
+  "Denarius": {
+    "rank": 203,
+    "ticker": "dnr"
+  },
+  "Dogecoin": {
+    "rank": 27,
+    "ticker": "doge"
+  },
+  "Dollar Online": {
+    "rank": 695,
+    "ticker": "dollar"
+  },
+  "Donationcoin": {
+    "rank": 823,
+    "ticker": "don"
+  },
+  "DopeCoin": {
+    "rank": 177,
+    "ticker": "dope"
+  },
+  "DigitalPrice": {
+    "rank": 290,
+    "ticker": "dp"
+  },
+  "Dreamcoin": {
+    "rank": 677,
+    "ticker": "drm"
+  },
+  "Digital Rupees": {
+    "rank": 630,
+    "ticker": "drs"
+  },
+  "DROXNE": {
+    "rank": 510,
+    "ticker": "drxne"
+  },
+  "Dashcoin": {
+    "rank": 369,
+    "ticker": "dsh"
+  },
+  "Desire": {
+    "rank": 401,
+    "ticker": "dsr"
+  },
+  "Datacoin": {
+    "rank": 532,
+    "ticker": "dtc"
+  },
+  "Dubstep": {
+    "rank": 891,
+    "ticker": "dub"
+  },
+  "ParallelCoin": {
+    "rank": 569,
+    "ticker": "duo"
+  },
+  "Dutch Coin": {
+    "rank": 815,
+    "ticker": "dutch"
+  },
+  "Dynamic": {
+    "rank": 163,
+    "ticker": "dyn"
+  },
+  "EarthCoin": {
+    "rank": 153,
+    "ticker": "eac"
+  },
+  "EA Coin": {
+    "rank": 758,
+    "ticker": "eag"
+  },
+  "eBoost": {
+    "rank": 258,
+    "ticker": "ebst"
+  },
+  "Ebittree Coin": {
+    "rank": 729,
+    "ticker": "ebt"
+  },
+  "Electra": {
+    "rank": 130,
+    "ticker": "eca"
+  },
+  "ECC": {
+    "rank": 101,
+    "ticker": "ecc"
+  },
+  "E-coin": {
+    "rank": 421,
+    "ticker": "ecn"
+  },
+  "EcoCoin": {
+    "rank": 385,
+    "ticker": "eco"
+  },
+  "E-Dinar Coin": {
+    "rank": 105,
+    "ticker": "edr"
+  },
+  "EDRCoin": {
+    "rank": 785,
+    "ticker": "edrc"
+  },
+  "e-Gulden": {
+    "rank": 266,
+    "ticker": "efl"
+  },
+  "EverGreenCoin": {
+    "rank": 265,
+    "ticker": "egc"
+  },
+  "EggCoin": {
+    "rank": 845,
+    "ticker": "egg"
+  },
+  "EGO": {
+    "rank": 662,
+    "ticker": "ego"
+  },
+  "Elcoin": {
+    "rank": 343,
+    "ticker": "el"
+  },
+  "Elastos": {
+    "rank": 733,
+    "ticker": "ela"
+  },
+  "Elacoin": {
+    "rank": 615,
+    "ticker": "elc"
+  },
+  "Elementrem": {
+    "rank": 338,
+    "ticker": "ele"
+  },
+  "Ellaism": {
+    "rank": 283,
+    "ticker": "ella"
+  },
+  "Elysium": {
+    "rank": 711,
+    "ticker": "els"
+  },
+  "EmberCoin": {
+    "rank": 916,
+    "ticker": "emb"
+  },
+  "Emercoin": {
+    "rank": 46,
+    "ticker": "emc"
+  },
+  "Einsteinium": {
+    "rank": 75,
+    "ticker": "emc2"
+  },
+  "Emerald Crypto": {
+    "rank": 548,
+    "ticker": "emd"
+  },
+  "Energycoin": {
+    "rank": 145,
+    "ticker": "enrg"
+  },
+  "ENTCash": {
+    "rank": 776,
+    "ticker": "ent"
+  },
+  "EquiTrader": {
+    "rank": 284,
+    "ticker": "eqt"
+  },
+  "ERA": {
+    "rank": 416,
+    "ticker": "era"
+  },
+  "EuropeCoin": {
+    "rank": 222,
+    "ticker": "erc"
+  },
+  "Eryllium": {
+    "rank": 618,
+    "ticker": "ery"
+  },
+  "Espers": {
+    "rank": 179,
+    "ticker": "esp"
+  },
+  "Ethereum Classic": {
+    "rank": 13,
+    "ticker": "etc"
+  },
+  "Ethereum": {
+    "rank": 2,
+    "ticker": "eth"
+  },
+  "Ethereum Dark": {
+    "rank": 382,
+    "ticker": "ethd"
+  },
+  "Electroneum": {
+    "rank": 40,
+    "ticker": "etn"
+  },
+  "Metaverse ETP": {
+    "rank": 83,
+    "ticker": "etp"
+  },
+  "Eurocoin": {
+    "rank": 595,
+    "ticker": "euc"
+  },
+  "Evil Coin": {
+    "rank": 534,
+    "ticker": "evil"
+  },
+  "Evotion": {
+    "rank": 581,
+    "ticker": "evo"
+  },
+  "ExclusiveCoin": {
+    "rank": 208,
+    "ticker": "excl"
+  },
+  "Expanse": {
+    "rank": 128,
+    "ticker": "exp"
+  },
+  "FairCoin": {
+    "rank": 117,
+    "ticker": "fair"
+  },
+  "Fazzcoin": {
+    "rank": 856,
+    "ticker": "fazz"
+  },
+  "FuelCoin": {
+    "rank": 466,
+    "ticker": "fc2"
+  },
+  "Fantomcoin": {
+    "rank": 456,
+    "ticker": "fcn"
+  },
+  "Factom": {
+    "rank": 37,
+    "ticker": "fct"
+  },
+  "BITFID": {
+    "rank": 811,
+    "ticker": "fid"
+  },
+  "Filecoin [Fut...": {
+    "rank": 753,
+    "ticker": "fil"
+  },
+  "FIMKrypto": {
+    "rank": 471,
+    "ticker": "fimk"
+  },
+  "Firecoin": {
+    "rank": 395,
+    "ticker": "fire"
+  },
+  "FujiCoin": {
+    "rank": 327,
+    "ticker": "fjc"
+  },
+  "FlappyCoin": {
+    "rank": 781,
+    "ticker": "flap"
+  },
+  "Flash": {
+    "rank": 92,
+    "ticker": "flash"
+  },
+  "Flaxscript": {
+    "rank": 634,
+    "ticker": "flax"
+  },
+  "FlorinCoin": {
+    "rank": 140,
+    "ticker": "flo"
+  },
+  "FlutterCoin": {
+    "rank": 450,
+    "ticker": "flt"
+  },
+  "Flycoin": {
+    "rank": 479,
+    "ticker": "fly"
+  },
+  "FinCoin": {
+    "rank": 629,
+    "ticker": "fnc"
+  },
+  "Fonziecoin": {
+    "rank": 814,
+    "ticker": "fonz"
+  },
+  "FORCE": {
+    "rank": 225,
+    "ticker": "for"
+  },
+  "Freicoin": {
+    "rank": 544,
+    "ticker": "frc"
+  },
+  "Farstcoin": {
+    "rank": 918,
+    "ticker": "frct"
+  },
+  "Fargocoin": {
+    "rank": 739,
+    "ticker": "frgc"
+  },
+  "Franko": {
+    "rank": 591,
+    "ticker": "frk"
+  },
+  "Francs": {
+    "rank": 802,
+    "ticker": "frn"
+  },
+  "FirstCoin": {
+    "rank": 173,
+    "ticker": "frst"
+  },
+  "FrankyWillCoin": {
+    "rank": 886,
+    "ticker": "frwc"
+  },
+  "Fastcoin": {
+    "rank": 449,
+    "ticker": "fst"
+  },
+  "Feathercoin": {
+    "rank": 73,
+    "ticker": "ftc"
+  },
+  "The Cypherfunks": {
+    "rank": 292,
+    "ticker": "funk"
+  },
+  "FutCoin": {
+    "rank": 863,
+    "ticker": "futc"
+  },
+  "FuzzBalls": {
+    "rank": 601,
+    "ticker": "fuzz"
+  },
+  "G3N": {
+    "rank": 667,
+    "ticker": "g3n"
+  },
+  "GAIA": {
+    "rank": 473,
+    "ticker": "gaia"
+  },
+  "UGAIN": {
+    "rank": 887,
+    "ticker": "gain"
+  },
+  "Gambit": {
+    "rank": 420,
+    "ticker": "gam"
+  },
+  "GameCredits": {
+    "rank": 56,
+    "ticker": "game"
+  },
+  "Gapcoin": {
+    "rank": 535,
+    "ticker": "gap"
+  },
+  "GAY Money": {
+    "rank": 869,
+    "ticker": "gay"
+  },
+  "GoldBlocks": {
+    "rank": 352,
+    "ticker": "gb"
+  },
+  "GBCGoldCoin": {
+    "rank": 408,
+    "ticker": "gbc"
+  },
+  "Golos Gold": {
+    "rank": 772,
+    "ticker": "gbg"
+  },
+  "GoByte": {
+    "rank": 162,
+    "ticker": "gbx"
+  },
+  "Byteball Bytes": {
+    "rank": 44,
+    "ticker": "gbyte"
+  },
+  "GuccioneCoin": {
+    "rank": 602,
+    "ticker": "gcc"
+  },
+  "GCN Coin": {
+    "rank": 255,
+    "ticker": "gcn"
+  },
+  "Global Curren...": {
+    "rank": 207,
+    "ticker": "gcr"
+  },
+  "GrandCoin": {
+    "rank": 792,
+    "ticker": "gdc"
+  },
+  "GeertCoin": {
+    "rank": 685,
+    "ticker": "geert"
+  },
+  "GeoCoin": {
+    "rank": 185,
+    "ticker": "geo"
+  },
+  "GlobalCoin": {
+    "rank": 539,
+    "ticker": "glc"
+  },
+  "GoldCoin": {
+    "rank": 230,
+    "ticker": "gld"
+  },
+  "GlassCoin": {
+    "rank": 518,
+    "ticker": "gls"
+  },
+  "GlobalToken": {
+    "rank": 393,
+    "ticker": "glt"
+  },
+  "GameLeagueCoin": {
+    "rank": 860,
+    "ticker": "gml"
+  },
+  "GoldMaxCoin": {
+    "rank": 810,
+    "ticker": "gmx"
+  },
+  "Bitcoin God": {
+    "rank": 774,
+    "ticker": "god"
+  },
+  "Golfcoin": {
+    "rank": 515,
+    "ticker": "golf"
+  },
+  "Golos": {
+    "rank": 164,
+    "ticker": "golos"
+  },
+  "GoldPieces": {
+    "rank": 622,
+    "ticker": "gp"
+  },
+  "Gold Pressed ...": {
+    "rank": 647,
+    "ticker": "gpl"
+  },
+  "GPU Coin": {
+    "rank": 607,
+    "ticker": "gpu"
+  },
+  "GridCoin": {
+    "rank": 113,
+    "ticker": "grc"
+  },
+  "Greencoin": {
+    "rank": 240,
+    "ticker": "gre"
+  },
+  "Graft": {
+    "rank": 211,
+    "ticker": "grft"
+  },
+  "Grimcoin": {
+    "rank": 351,
+    "ticker": "grim"
+  },
+  "Garlicoin": {
+    "rank": 366,
+    "ticker": "grlc"
+  },
+  "Granite": {
+    "rank": 788,
+    "ticker": "grn"
+  },
+  "Groestlcoin": {
+    "rank": 90,
+    "ticker": "grs"
+  },
+  "Growers Inter...": {
+    "rank": 307,
+    "ticker": "grwi"
+  },
+  "GeyserCoin": {
+    "rank": 718,
+    "ticker": "gsr"
+  },
+  "Global Tour Coin": {
+    "rank": 550,
+    "ticker": "gtc"
+  },
+  "Guncoin": {
+    "rank": 458,
+    "ticker": "gun"
+  },
+  "GXChain": {
+    "rank": 38,
+    "ticker": "gxs"
+  },
+  "Halcyon": {
+    "rank": 355,
+    "ticker": "hal"
+  },
+  "Halloween Coin": {
+    "rank": 837,
+    "ticker": "hallo"
+  },
+  "HomeBlockCoin": {
+    "rank": 394,
+    "ticker": "hbc"
+  },
+  "HoboNickels": {
+    "rank": 464,
+    "ticker": "hbn"
+  },
+  "Harvest Maste...": {
+    "rank": 782,
+    "ticker": "hc"
+  },
+  "Happy Creator...": {
+    "rank": 830,
+    "ticker": "hcc"
+  },
+  "HEAT": {
+    "rank": 171,
+    "ticker": "heat"
+  },
+  "High Gain": {
+    "rank": 843,
+    "ticker": "high"
+  },
+  "HarmonyCoin": {
+    "rank": 414,
+    "ticker": "hmc"
+  },
+  "HempCoin": {
+    "rank": 131,
+    "ticker": "thc"
+  },
+  "Huncoin": {
+    "rank": 824,
+    "ticker": "hnc"
+  },
+  "HOdlcoin": {
+    "rank": 333,
+    "ticker": "hodl"
+  },
+  "Interstellar ...": {
+    "rank": 313,
+    "ticker": "hold"
+  },
+  "Honey": {
+    "rank": 588,
+    "ticker": "honey"
+  },
+  "Happycoin": {
+    "rank": 289,
+    "ticker": "hpc"
+  },
+  "Hshare": {
+    "rank": 30,
+    "ticker": "hsr"
+  },
+  "Huobi Token": {
+    "rank": 730,
+    "ticker": "ht"
+  },
+  "HitCoin": {
+    "rank": 453,
+    "ticker": "htc"
+  },
+  "HTMLCOIN": {
+    "rank": 79,
+    "ticker": "html"
+  },
+  "HunterCoin": {
+    "rank": 254,
+    "ticker": "huc"
+  },
+  "Hush": {
+    "rank": 210,
+    "ticker": "hush"
+  },
+  "High Voltage": {
+    "rank": 337,
+    "ticker": "hvco"
+  },
+  "HollyWoodCoin": {
+    "rank": 217,
+    "ticker": "hwc"
+  },
+  "Hexx": {
+    "rank": 308,
+    "ticker": "hxx"
+  },
+  "HyperStake": {
+    "rank": 209,
+    "ticker": "hyp"
+  },
+  "Hyper": {
+    "rank": 829,
+    "ticker": "hyper"
+  },
+  "I0Coin": {
+    "rank": 462,
+    "ticker": "i0c"
+  },
+  "iBank": {
+    "rank": 706,
+    "ticker": "ibank"
+  },
+  "Ignition": {
+    "rank": 287,
+    "ticker": "ic"
+  },
+  "iCoin": {
+    "rank": 514,
+    "ticker": "icn"
+  },
+  "ICOBID": {
+    "rank": 589,
+    "ticker": "icob"
+  },
+  "Iconic": {
+    "rank": 650,
+    "ticker": "icon"
+  },
+  "Infinitecoin": {
+    "rank": 904,
+    "ticker": "ifc"
+  },
+  "InflationCoin": {
+    "rank": 242,
+    "ticker": "iflt"
+  },
+  "ImpulseCoin": {
+    "rank": 688,
+    "ticker": "imps"
+  },
+  "Independent M...": {
+    "rank": 543,
+    "ticker": "ims"
+  },
+  "Impact": {
+    "rank": 600,
+    "ticker": "imx"
+  },
+  "India Coin": {
+    "rank": 881,
+    "ticker": "india"
+  },
+  "InfChain": {
+    "rank": 917,
+    "ticker": "inf"
+  },
+  "Influxcoin": {
+    "rank": 386,
+    "ticker": "infx"
+  },
+  "Innova": {
+    "rank": 244,
+    "ticker": "inn"
+  },
+  "InsaneCoin": {
+    "rank": 451,
+    "ticker": "insn"
+  },
+  "I/O Coin": {
+    "rank": 106,
+    "ticker": "ioc"
+  },
+  "ION": {
+    "rank": 67,
+    "ticker": "ion"
+  },
+  "Internet of P...": {
+    "rank": 186,
+    "ticker": "iop"
+  },
+  "Interplanetar...": {
+    "rank": 180,
+    "ticker": "ipbc"
+  },
+  "IrishCoin": {
+    "rank": 551,
+    "ticker": "irl"
+  },
+  "IslaCoin": {
+    "rank": 573,
+    "ticker": "isl"
+  },
+  "iTicoin": {
+    "rank": 486,
+    "ticker": "iti"
+  },
+  "IntenseCoin": {
+    "rank": 281,
+    "ticker": "itns"
+  },
+  "InvisibleCoin": {
+    "rank": 908,
+    "ticker": "ivz"
+  },
+  "Ixcoin": {
+    "rank": 425,
+    "ticker": "ixc"
+  },
+  "Joincoin": {
+    "rank": 590,
+    "ticker": "j"
+  },
+  "Shekel": {
+    "rank": 317,
+    "ticker": "jew"
+  },
+  "Jin Coin": {
+    "rank": 577,
+    "ticker": "jin"
+  },
+  "Jiyo": {
+    "rank": 226,
+    "ticker": "jiyo"
+  },
+  "JobsCoin": {
+    "rank": 683,
+    "ticker": "jobs"
+  },
+  "Jewels": {
+    "rank": 666,
+    "ticker": "jwl"
+  },
+  "Karmacoin": {
+    "rank": 882,
+    "ticker": "karma"
+  },
+  "KashhCoin": {
+    "rank": 897,
+    "ticker": "kashh"
+  },
+  "Kayicoin": {
+    "rank": 384,
+    "ticker": "kayi"
+  },
+  "KlondikeCoin": {
+    "rank": 899,
+    "ticker": "kdc"
+  },
+  "Darsek": {
+    "rank": 576,
+    "ticker": "ked"
+  },
+  "KekCoin": {
+    "rank": 310,
+    "ticker": "kek"
+  },
+  "KiloCoin": {
+    "rank": 418,
+    "ticker": "klc"
+  },
+  "Komodo": {
+    "rank": 29,
+    "ticker": "kmd"
+  },
+  "KingN Coin": {
+    "rank": 676,
+    "ticker": "knc"
+  },
+  "Kobocoin": {
+    "rank": 334,
+    "ticker": "kobo"
+  },
+  "Kore": {
+    "rank": 190,
+    "ticker": "kore"
+  },
+  "Karbo": {
+    "rank": 236,
+    "ticker": "krb"
+  },
+  "Kronecoin": {
+    "rank": 657,
+    "ticker": "krone"
+  },
+  "Kurrent": {
+    "rank": 498,
+    "ticker": "kurt"
+  },
+  "KushCoin": {
+    "rank": 496,
+    "ticker": "kush"
+  },
+  "Kzcash": {
+    "rank": 251,
+    "ticker": "kzc"
+  },
+  "LanaCoin": {
+    "rank": 474,
+    "ticker": "lana"
+  },
+  "Lazaruscoin": {
+    "rank": 871,
+    "ticker": "laz"
+  },
+  "LBRY Credits": {
+    "rank": 84,
+    "ticker": "lbc"
+  },
+  "Lightning Bit...": {
+    "rank": 743,
+    "ticker": "lbtc"
+  },
+  "Litecoin Cash": {
+    "rank": 752,
+    "ticker": "lcc"
+  },
+  "Litecoin Plus": {
+    "rank": 368,
+    "ticker": "lcp"
+  },
+  "LandCoin": {
+    "rank": 857,
+    "ticker": "ldcn"
+  },
+  "LiteDoge": {
+    "rank": 267,
+    "ticker": "ldoge"
+  },
+  "LeaCoin": {
+    "rank": 388,
+    "ticker": "lea"
+  },
+  "LeafCoin": {
+    "rank": 428,
+    "ticker": "leaf"
+  },
+  "LEOcoin": {
+    "rank": 86,
+    "ticker": "leo"
+  },
+  "LePen": {
+    "rank": 825,
+    "ticker": "lepen"
+  },
+  "LinkEye": {
+    "rank": 93,
+    "ticker": "let"
+  },
+  "Levocoin": {
+    "rank": 804,
+    "ticker": "levo"
+  },
+  "Linda": {
+    "rank": 104,
+    "ticker": "linda"
+  },
+  "Linx": {
+    "rank": 277,
+    "ticker": "linx"
+  },
+  "LetItRide": {
+    "rank": 687,
+    "ticker": "lir"
+  },
+  "LinkedCoin": {
+    "rank": 864,
+    "ticker": "lkc"
+  },
+  "Lykke": {
+    "rank": 96,
+    "ticker": "lkk"
+  },
+  "LoMoCoin": {
+    "rank": 139,
+    "ticker": "lmc"
+  },
+  "Woodcoin": {
+    "rank": 306,
+    "ticker": "log"
+  },
+  "Lisk": {
+    "rank": 15,
+    "ticker": "lsk"
+  },
+  "LiteBar": {
+    "rank": 562,
+    "ticker": "ltb"
+  },
+  "Litecoin": {
+    "rank": 5,
+    "ticker": "ltc"
+  },
+  "Litecred": {
+    "rank": 642,
+    "ticker": "ltcr"
+  },
+  "LiteCoin Ultra": {
+    "rank": 669,
+    "ticker": "ltcu"
+  },
+  "LAthaan": {
+    "rank": 879,
+    "ticker": "lth"
+  },
+  "Luna Coin": {
+    "rank": 616,
+    "ticker": "luna"
+  },
+  "LUXCoin": {
+    "rank": 182,
+    "ticker": "lux"
+  },
+  "LevoPlus": {
+    "rank": 723,
+    "ticker": "lvps"
+  },
+  "Machinecoin": {
+    "rank": 468,
+    "ticker": "mac"
+  },
+  "SatoshiMadness": {
+    "rank": 511,
+    "ticker": "mad"
+  },
+  "Magnet": {
+    "rank": 256,
+    "ticker": "mag"
+  },
+  "MagicCoin": {
+    "rank": 445,
+    "ticker": "mage"
+  },
+  "Magnetcoin": {
+    "rank": 820,
+    "ticker": "magn"
+  },
+  "Manna": {
+    "rank": 467,
+    "ticker": "manna"
+  },
+  "Mao Zedong": {
+    "rank": 361,
+    "ticker": "mao"
+  },
+  "Marijuanacoin": {
+    "rank": 623,
+    "ticker": "mar"
+  },
+  "Marscoin": {
+    "rank": 524,
+    "ticker": "mars"
+  },
+  "MarxCoin": {
+    "rank": 798,
+    "ticker": "marx"
+  },
+  "MaxCoin": {
+    "rank": 273,
+    "ticker": "max"
+  },
+  "Theresa May Coin": {
+    "rank": 392,
+    "ticker": "may"
+  },
+  "MobileCash": {
+    "rank": 854,
+    "ticker": "mbl"
+  },
+  "MACRON": {
+    "rank": 332,
+    "ticker": "mcrn"
+  },
+  "Madcoin": {
+    "rank": 410,
+    "ticker": "mdc"
+  },
+  "Megacoin": {
+    "rank": 459,
+    "ticker": "mec"
+  },
+  "MedicCoin": {
+    "rank": 200,
+    "ticker": "medic"
+  },
+  "Memetic / Pep...": {
+    "rank": 191,
+    "ticker": "meme"
+  },
+  "MetalCoin": {
+    "rank": 329,
+    "ticker": "metal"
+  },
+  "MergeCoin": {
+    "rank": 755,
+    "ticker": "mgc"
+  },
+  "Magnum": {
+    "rank": 719,
+    "ticker": "mgm"
+  },
+  "MiloCoin": {
+    "rank": 674,
+    "ticker": "milo"
+  },
+  "Mintcoin": {
+    "rank": 146,
+    "ticker": "mint"
+  },
+  "IOTA": {
+    "rank": 9,
+    "ticker": "miota"
+  },
+  "MktCoin": {
+    "rank": 756,
+    "ticker": "mlm"
+  },
+  "MMXVI": {
+    "rank": 909,
+    "ticker": "mmxvi"
+  },
+  "Mincoin": {
+    "rank": 587,
+    "ticker": "mnc"
+  },
+  "MindCoin": {
+    "rank": 649,
+    "ticker": "mnd"
+  },
+  "Mineum": {
+    "rank": 546,
+    "ticker": "mnm"
+  },
+  "GoldMint": {
+    "rank": 202,
+    "ticker": "mntp"
+  },
+  "MinexCoin": {
+    "rank": 51,
+    "ticker": "mnx"
+  },
+  "Moin": {
+    "rank": 311,
+    "ticker": "moin"
+  },
+  "MojoCoin": {
+    "rank": 345,
+    "ticker": "mojo"
+  },
+  "MonaCoin": {
+    "rank": 35,
+    "ticker": "mona"
+  },
+  "Moneta": {
+    "rank": 880,
+    "ticker": "moneta"
+  },
+  "Monkey Project": {
+    "rank": 231,
+    "ticker": "monk"
+  },
+  "Mooncoin": {
+    "rank": 107,
+    "ticker": "moon"
+  },
+  "Motocoin": {
+    "rank": 502,
+    "ticker": "moto"
+  },
+  "GanjaCoin": {
+    "rank": 316,
+    "ticker": "mrja"
+  },
+  "Master Swiscoin": {
+    "rank": 405,
+    "ticker": "mscn"
+  },
+  "MSD": {
+    "rank": 769,
+    "ticker": "msd"
+  },
+  "MustangCoin": {
+    "rank": 593,
+    "ticker": "mst"
+  },
+  "Metal Music Coin": {
+    "rank": 624,
+    "ticker": "mtlmc3"
+  },
+  "Masternodecoin": {
+    "rank": 235,
+    "ticker": "mtnc"
+  },
+  "MonetaryUnit": {
+    "rank": 122,
+    "ticker": "mue"
+  },
+  "MUSE": {
+    "rank": 121,
+    "ticker": "muse"
+  },
+  "Musicoin": {
+    "rank": 158,
+    "ticker": "music"
+  },
+  "MarteXcoin": {
+    "rank": 272,
+    "ticker": "mxt"
+  },
+  "MAZA": {
+    "rank": 296,
+    "ticker": "mzc"
+  },
+  "NamoCoin": {
+    "rank": 761,
+    "ticker": "namo"
+  },
+  "Nano": {
+    "rank": 16,
+    "ticker": "nano"
+  },
+  "Project-X": {
+    "rank": 413,
+    "ticker": "nanox"
+  },
+  "NavCoin": {
+    "rank": 60,
+    "ticker": "nav"
+  },
+  "netBit": {
+    "rank": 828,
+    "ticker": "nbit"
+  },
+  "Neblio": {
+    "rank": 45,
+    "ticker": "nebl"
+  },
+  "NEO": {
+    "rank": 8,
+    "ticker": "neo"
+  },
+  "NeosCoin": {
+    "rank": 161,
+    "ticker": "neos"
+  },
+  "NetCoin": {
+    "rank": 321,
+    "ticker": "net"
+  },
+  "Netko": {
+    "rank": 470,
+    "ticker": "netko"
+  },
+  "NevaCoin": {
+    "rank": 509,
+    "ticker": "neva"
+  },
+  "IncaKoin": {
+    "rank": 426,
+    "ticker": "nka"
+  },
+  "NoLimitCoin": {
+    "rank": 114,
+    "ticker": "nlc2"
+  },
+  "Gulden": {
+    "rank": 77,
+    "ticker": "nlg"
+  },
+  "Namecoin": {
+    "rank": 89,
+    "ticker": "nmc"
+  },
+  "Numus": {
+    "rank": 768,
+    "ticker": "nms"
+  },
+  "NobleCoin": {
+    "rank": 253,
+    "ticker": "nobl"
+  },
+  "NodeCoin": {
+    "rank": 712,
+    "ticker": "nodc"
+  },
+  "DNotes": {
+    "rank": 227,
+    "ticker": "note"
+  },
+  "Neuro": {
+    "rank": 620,
+    "ticker": "nro"
+  },
+  "Neutron": {
+    "rank": 195,
+    "ticker": "ntrn"
+  },
+  "Nekonium": {
+    "rank": 528,
+    "ticker": "nuko"
+  },
+  "NumusCash": {
+    "rank": 749,
+    "ticker": "numus"
+  },
+  "Novacoin": {
+    "rank": 167,
+    "ticker": "nvc"
+  },
+  "Nexus": {
+    "rank": 50,
+    "ticker": "nxs"
+  },
+  "Nxt": {
+    "rank": 43,
+    "ticker": "nxt"
+  },
+  "Nyancoin": {
+    "rank": 478,
+    "ticker": "nyan"
+  },
+  "NewYorkCoin": {
+    "rank": 136,
+    "ticker": "nyc"
+  },
+  "OceanChain": {
+    "rank": 738,
+    "ticker": "oc"
+  },
+  "Octoin Coin": {
+    "rank": 741,
+    "ticker": "occ"
+  },
+  "OCOW": {
+    "rank": 912,
+    "ticker": "ocow"
+  },
+  "Obsidian": {
+    "rank": 271,
+    "ticker": "odn"
+  },
+  "OFCOIN": {
+    "rank": 737,
+    "ticker": "of"
+  },
+  "Cthulhu Offer...": {
+    "rank": 690,
+    "ticker": "off"
+  },
+  "OKCash": {
+    "rank": 159,
+    "ticker": "ok"
+  },
+  "Omicron": {
+    "rank": 852,
+    "ticker": "omc"
+  },
+  "Omni": {
+    "rank": 123,
+    "ticker": "omni"
+  },
+  "DeepOnion": {
+    "rank": 97,
+    "ticker": "onion"
+  },
+  "Onix": {
+    "rank": 373,
+    "ticker": "onx"
+  },
+  "Operand": {
+    "rank": 910,
+    "ticker": "op"
+  },
+  "Opal": {
+    "rank": 490,
+    "ticker": "opal"
+  },
+  "OP Coin": {
+    "rank": 347,
+    "ticker": "opc"
+  },
+  "Opescoin": {
+    "rank": 835,
+    "ticker": "opes"
+  },
+  "Orbitcoin": {
+    "rank": 432,
+    "ticker": "orb"
+  },
+  "Galactrum": {
+    "rank": 356,
+    "ticker": "ore"
+  },
+  "Orlycoin": {
+    "rank": 671,
+    "ticker": "orly"
+  },
+  "OsmiumCoin": {
+    "rank": 700,
+    "ticker": "os76"
+  },
+  "Oxycoin": {
+    "rank": 154,
+    "ticker": "oxy"
+  },
+  "P7Coin": {
+    "rank": 707,
+    "ticker": "p7c"
+  },
+  "Pakcoin": {
+    "rank": 372,
+    "ticker": "pak"
+  },
+  "Particl": {
+    "rank": 49,
+    "ticker": "part"
+  },
+  "Pascal Coin": {
+    "rank": 125,
+    "ticker": "pasc"
+  },
+  "Pascal Lite": {
+    "rank": 575,
+    "ticker": "pasl"
+  },
+  "PayPeer": {
+    "rank": 896,
+    "ticker": "payp"
+  },
+  "PeepCoin": {
+    "rank": 344,
+    "ticker": "pcn"
+  },
+  "Pioneer Coin": {
+    "rank": 398,
+    "ticker": "pcoin"
+  },
+  "Pabyosi Coin ...": {
+    "rank": 901,
+    "ticker": "pcs"
+  },
+  "PinkDog": {
+    "rank": 914,
+    "ticker": "pdg"
+  },
+  "PosEx": {
+    "rank": 699,
+    "ticker": "pex"
+  },
+  "Photon": {
+    "rank": 455,
+    "ticker": "pho"
+  },
+  "Phore": {
+    "rank": 129,
+    "ticker": "phr"
+  },
+  "Philosopher S...": {
+    "rank": 378,
+    "ticker": "phs"
+  },
+  "PIECoin": {
+    "rank": 644,
+    "ticker": "pie"
+  },
+  "Piggycoin": {
+    "rank": 465,
+    "ticker": "piggy"
+  },
+  "PinkCoin": {
+    "rank": 170,
+    "ticker": "pink"
+  },
+  "Pirl": {
+    "rank": 176,
+    "ticker": "pirl"
+  },
+  "PIVX": {
+    "rank": 34,
+    "ticker": "pivx"
+  },
+  "PizzaCoin": {
+    "rank": 727,
+    "ticker": "pizza"
+  },
+  "ParkByte": {
+    "rank": 341,
+    "ticker": "pkb"
+  },
+  "PlayerCoin": {
+    "rank": 694,
+    "ticker": "placo"
+  },
+  "Polcoin": {
+    "rank": 596,
+    "ticker": "plc"
+  },
+  "PLNcoin": {
+    "rank": 693,
+    "ticker": "plnc"
+  },
+  "Pandacoin": {
+    "rank": 175,
+    "ticker": "pnd"
+  },
+  "Phantomx": {
+    "rank": 529,
+    "ticker": "pnx"
+  },
+  "POA Network": {
+    "rank": 52,
+    "ticker": "poa"
+  },
+  "PokeCoin": {
+    "rank": 846,
+    "ticker": "poke"
+  },
+  "Polis": {
+    "rank": 165,
+    "ticker": "polis"
+  },
+  "PonziCoin": {
+    "rank": 664,
+    "ticker": "ponzi"
+  },
+  "PopularCoin": {
+    "rank": 440,
+    "ticker": "pop"
+  },
+  "PostCoin": {
+    "rank": 365,
+    "ticker": "post"
+  },
+  "PoSW Coin": {
+    "rank": 141,
+    "ticker": "posw"
+  },
+  "PotCoin": {
+    "rank": 94,
+    "ticker": "pot"
+  },
+  "Peercoin": {
+    "rank": 72,
+    "ticker": "ppc"
+  },
+  "Peerplays": {
+    "rank": 108,
+    "ticker": "ppy"
+  },
+  "Prototanium": {
+    "rank": 374,
+    "ticker": "pr"
+  },
+  "PRCoin": {
+    "rank": 703,
+    "ticker": "prc"
+  },
+  "Primulon": {
+    "rank": 831,
+    "ticker": "primu"
+  },
+  "PrismChain": {
+    "rank": 877,
+    "ticker": "prm"
+  },
+  "Protean": {
+    "rank": 809,
+    "ticker": "prn"
+  },
+  "ProCurrency": {
+    "rank": 285,
+    "ticker": "proc"
+  },
+  "Printerium": {
+    "rank": 643,
+    "ticker": "prx"
+  },
+  "Psilocybin": {
+    "rank": 842,
+    "ticker": "psy"
+  },
+  "Pesetacoin": {
+    "rank": 206,
+    "ticker": "ptc"
+  },
+  "Pulse": {
+    "rank": 660,
+    "ticker": "pulse"
+  },
+  "Pura": {
+    "rank": 70,
+    "ticker": "pura"
+  },
+  "Pure": {
+    "rank": 438,
+    "ticker": "pure"
+  },
+  "PutinCoin": {
+    "rank": 268,
+    "ticker": "put"
+  },
+  "PX": {
+    "rank": 526,
+    "ticker": "px"
+  },
+  "Phoenixcoin": {
+    "rank": 349,
+    "ticker": "pxc"
+  },
+  "Prime-XI": {
+    "rank": 572,
+    "ticker": "pxi"
+  },
+  "PRIZM": {
+    "rank": 111,
+    "ticker": "pzm"
+  },
+  "QubitCoin": {
+    "rank": 472,
+    "ticker": "q2c"
+  },
+  "Quebecoin": {
+    "rank": 527,
+    "ticker": "qbc"
+  },
+  "Qbic": {
+    "rank": 371,
+    "ticker": "qbic"
+  },
+  "Cubits": {
+    "rank": 900,
+    "ticker": "qbt"
+  },
+  "QuazarCoin": {
+    "rank": 653,
+    "ticker": "qcn"
+  },
+  "Qora": {
+    "rank": 855,
+    "ticker": "qora"
+  },
+  "Quark": {
+    "rank": 238,
+    "ticker": "qrk"
+  },
+  "Quatloo": {
+    "rank": 594,
+    "ticker": "qtl"
+  },
+  "Qtum": {
+    "rank": 14,
+    "ticker": "qtum"
+  },
+  "Radium": {
+    "rank": 151,
+    "ticker": "rads"
+  },
+  "Condensate": {
+    "rank": 280,
+    "ticker": "rain"
+  },
+  "RabbitCoin": {
+    "rank": 787,
+    "ticker": "rbbt"
+  },
+  "Rubies": {
+    "rank": 542,
+    "ticker": "rbies"
+  },
+  "Rimbit": {
+    "rank": 487,
+    "ticker": "rbt"
+  },
+  "Rubycoin": {
+    "rank": 419,
+    "ticker": "rby"
+  },
+  "RussiaCoin": {
+    "rank": 423,
+    "ticker": "rc"
+  },
+  "Rcoin": {
+    "rank": 894,
+    "ticker": "rcn"
+  },
+  "ReddCoin": {
+    "rank": 42,
+    "ticker": "rdd"
+  },
+  "Regalcoin": {
+    "rank": 259,
+    "ticker": "rec"
+  },
+  "RedCoin": {
+    "rank": 554,
+    "ticker": "red"
+  },
+  "ReeCoin": {
+    "rank": 564,
+    "ticker": "ree"
+  },
+  "Regacoin": {
+    "rank": 827,
+    "ticker": "rega"
+  },
+  "RHFCoin": {
+    "rank": 902,
+    "ticker": "rhfc"
+  },
+  "Riecoin": {
+    "rank": 223,
+    "ticker": "ric"
+  },
+  "RichCoin": {
+    "rank": 844,
+    "ticker": "richx"
+  },
+  "Ride My Car": {
+    "rank": 672,
+    "ticker": "ride"
+  },
+  "Rise": {
+    "rank": 120,
+    "ticker": "rise"
+  },
+  "Russian Miner...": {
+    "rank": 417,
+    "ticker": "rmc"
+  },
+  "Renos": {
+    "rank": 318,
+    "ticker": "rns"
+  },
+  "Roofs": {
+    "rank": 606,
+    "ticker": "roofs"
+  },
+  "RoyalCoin": {
+    "rank": 873,
+    "ticker": "royal"
+  },
+  "RonPaulCoin": {
+    "rank": 584,
+    "ticker": "rpc"
+  },
+  "RSGPcoin": {
+    "rank": 680,
+    "ticker": "rsgp"
+  },
+  "RubleBit": {
+    "rank": 848,
+    "ticker": "rubit"
+  },
+  "Runners": {
+    "rank": 840,
+    "ticker": "runners"
+  },
+  "Rupee": {
+    "rank": 286,
+    "ticker": "rup"
+  },
+  "Rupaya": {
+    "rank": 269,
+    "ticker": "rupx"
+  },
+  "Ravencoin": {
+    "rank": 76,
+    "ticker": "rvn"
+  },
+  "RevolutionVR": {
+    "rank": 115,
+    "ticker": "rvr"
+  },
+  "SACoin": {
+    "rank": 533,
+    "ticker": "sac"
+  },
+  "SagaCoin": {
+    "rank": 279,
+    "ticker": "saga"
+  },
+  "Sharkcoin": {
+    "rank": 836,
+    "ticker": "sak"
+  },
+  "Save and Gain": {
+    "rank": 411,
+    "ticker": "sandg"
+  },
+  "StrikeBitClub": {
+    "rank": 754,
+    "ticker": "sbc"
+  },
+  "Steem Dollars": {
+    "rank": 100,
+    "ticker": "sbd"
+  },
+  "Super Bitcoin": {
+    "rank": 748,
+    "ticker": "sbtc"
+  },
+  "Siacoin": {
+    "rank": 24,
+    "ticker": "sc"
+  },
+  "Scorecoin": {
+    "rank": 501,
+    "ticker": "score"
+  },
+  "SecretCoin": {
+    "rank": 391,
+    "ticker": "scrt"
+  },
+  "Speedcash": {
+    "rank": 358,
+    "ticker": "scs"
+  },
+  "ShadowCash": {
+    "rank": 452,
+    "ticker": "sdc"
+  },
+  "SydPak": {
+    "rank": 704,
+    "ticker": "sdp"
+  },
+  "Social Send": {
+    "rank": 282,
+    "ticker": "send"
+  },
+  "Sequence": {
+    "rank": 174,
+    "ticker": "seq"
+  },
+  "Solarflarecoin": {
+    "rank": 404,
+    "ticker": "sfc"
+  },
+  "SafeCoin": {
+    "rank": 851,
+    "ticker": "sfe"
+  },
+  "Shilling": {
+    "rank": 648,
+    "ticker": "sh"
+  },
+  "SHACoin": {
+    "rank": 807,
+    "ticker": "sha"
+  },
+  "ShellCoin": {
+    "rank": 866,
+    "ticker": "shell"
+  },
+  "Shift": {
+    "rank": 95,
+    "ticker": "shift"
+  },
+  "StrongHands": {
+    "rank": 397,
+    "ticker": "shnd"
+  },
+  "Shorty": {
+    "rank": 446,
+    "ticker": "shorty"
+  },
+  "SIBCoin": {
+    "rank": 116,
+    "ticker": "sib"
+  },
+  "Swisscoin": {
+    "rank": 765,
+    "ticker": "sic"
+  },
+  "SIGMAcoin": {
+    "rank": 849,
+    "ticker": "sigma"
+  },
+  "Signatum": {
+    "rank": 512,
+    "ticker": "sigt"
+  },
+  "SJWCoin": {
+    "rank": 784,
+    "ticker": "sjw"
+  },
+  "Skeincoin": {
+    "rank": 320,
+    "ticker": "skc"
+  },
+  "Sakuracoin": {
+    "rank": 799,
+    "ticker": "skr"
+  },
+  "Pirate Blocks": {
+    "rank": 883,
+    "ticker": "skull"
+  },
+  "Skycoin": {
+    "rank": 48,
+    "ticker": "sky"
+  },
+  "Slevin": {
+    "rank": 675,
+    "ticker": "slevin"
+  },
+  "Selfiecoin": {
+    "rank": 715,
+    "ticker": "slfi"
+  },
+  "Sterlingcoin": {
+    "rank": 357,
+    "ticker": "slg"
+  },
+  "Slimcoin": {
+    "rank": 342,
+    "ticker": "slm"
+  },
+  "Slothcoin": {
+    "rank": 817,
+    "ticker": "sloth"
+  },
+  "SolarCoin": {
+    "rank": 126,
+    "ticker": "slr"
+  },
+  "SaluS": {
+    "rank": 69,
+    "ticker": "sls"
+  },
+  "SmartCash": {
+    "rank": 58,
+    "ticker": "smart"
+  },
+  "SmartCoin": {
+    "rank": 483,
+    "ticker": "smc"
+  },
+  "SmileyCoin": {
+    "rank": 429,
+    "ticker": "smly"
+  },
+  "Synergy": {
+    "rank": 198,
+    "ticker": "snrg"
+  },
+  "SocialCoin": {
+    "rank": 708,
+    "ticker": "socc"
+  },
+  "SOILcoin": {
+    "rank": 403,
+    "ticker": "soil"
+  },
+  "Sojourn": {
+    "rank": 659,
+    "ticker": "soj"
+  },
+  "SongCoin": {
+    "rank": 638,
+    "ticker": "song"
+  },
+  "SoonCoin": {
+    "rank": 592,
+    "ticker": "soon"
+  },
+  "SpaceCoin": {
+    "rank": 583,
+    "ticker": "space"
+  },
+  "Stipend": {
+    "rank": 766,
+    "ticker": "spd"
+  },
+  "SproutsExtreme": {
+    "rank": 540,
+    "ticker": "spex"
+  },
+  "Sphere": {
+    "rank": 172,
+    "ticker": "sphr"
+  },
+  "Sparks": {
+    "rank": 801,
+    "ticker": "spk"
+  },
+  "SportsCoin": {
+    "rank": 858,
+    "ticker": "sport"
+  },
+  "SpreadCoin": {
+    "rank": 263,
+    "ticker": "spr"
+  },
+  "Sprouts": {
+    "rank": 218,
+    "ticker": "sprts"
+  },
+  "Spots": {
+    "rank": 621,
+    "ticker": "spt"
+  },
+  "SecureCoin": {
+    "rank": 523,
+    "ticker": "src"
+  },
+  "STRAKS": {
+    "rank": 305,
+    "ticker": "stak"
+  },
+  "StarCash Network": {
+    "rank": 640,
+    "ticker": "stars"
+  },
+  "Startcoin": {
+    "rank": 335,
+    "ticker": "start"
+  },
+  "Steem": {
+    "rank": 21,
+    "ticker": "steem"
+  },
+  "Steps": {
+    "rank": 679,
+    "ticker": "steps"
+  },
+  "Steneum Coin": {
+    "rank": 383,
+    "ticker": "stn"
+  },
+  "Stratis": {
+    "rank": 22,
+    "ticker": "strat"
+  },
+  "Sativacoin": {
+    "rank": 553,
+    "ticker": "stv"
+  },
+  "Sumokoin": {
+    "rank": 204,
+    "ticker": "sumo"
+  },
+  "Superior Coin": {
+    "rank": 800,
+    "ticker": "sup"
+  },
+  "SuperCoin": {
+    "rank": 447,
+    "ticker": "super"
+  },
+  "Swing": {
+    "rank": 580,
+    "ticker": "swing"
+  },
+  "Jingtum Tech": {
+    "rank": 763,
+    "ticker": "swtc"
+  },
+  "Sexcoin": {
+    "rank": 274,
+    "ticker": "sxc"
+  },
+  "Syndicate": {
+    "rank": 178,
+    "ticker": "synx"
+  },
+  "Syscoin": {
+    "rank": 39,
+    "ticker": "sys"
+  },
+  "TagCoin": {
+    "rank": 504,
+    "ticker": "tag"
+  },
+  "TAGRcoin": {
+    "rank": 678,
+    "ticker": "tagr"
+  },
+  "TajCoin": {
+    "rank": 571,
+    "ticker": "taj"
+  },
+  "BTCtalkcoin": {
+    "rank": 469,
+    "ticker": "talk"
+  },
+  "The ChampCoin": {
+    "rank": 157,
+    "ticker": "tcc"
+  },
+  "T-coin": {
+    "rank": 813,
+    "ticker": "tcoin"
+  },
+  "TheCreed": {
+    "rank": 911,
+    "ticker": "tcr"
+  },
+  "TeamUp": {
+    "rank": 895,
+    "ticker": "team"
+  },
+  "TEKcoin": {
+    "rank": 503,
+    "ticker": "tek"
+  },
+  "Tellurion": {
+    "rank": 839,
+    "ticker": "tell"
+  },
+  "TerraNova": {
+    "rank": 777,
+    "ticker": "ter"
+  },
+  "TeslaCoin": {
+    "rank": 250,
+    "ticker": "tes"
+  },
+  "Tigercoin": {
+    "rank": 517,
+    "ticker": "tgc"
+  },
+  "TechShares": {
+    "rank": 764,
+    "ticker": "ths"
+  },
+  "FedoraCoin": {
+    "rank": 197,
+    "ticker": "tips"
+  },
+  "Titcoin": {
+    "rank": 507,
+    "ticker": "tit"
+  },
+  "Tattoocoin (L...": {
+    "rank": 762,
+    "ticker": "tle"
+  },
+  "TimesCoin": {
+    "rank": 795,
+    "ticker": "tmc"
+  },
+  "ToaCoin": {
+    "rank": 147,
+    "ticker": "toa"
+  },
+  "TodayCoin": {
+    "rank": 832,
+    "ticker": "today"
+  },
+  "Tokugawa": {
+    "rank": 376,
+    "ticker": "tok"
+  },
+  "TOKYO": {
+    "rank": 370,
+    "ticker": "tokc"
+  },
+  "SwapToken": {
+    "rank": 771,
+    "ticker": "token"
+  },
+  "TopCoin": {
+    "rank": 853,
+    "ticker": "top"
+  },
+  "Topaz Coin": {
+    "rank": 826,
+    "ticker": "topaz"
+  },
+  "Torcoin": {
+    "rank": 682,
+    "ticker": "tor"
+  },
+  "Terracoin": {
+    "rank": 201,
+    "ticker": "trc"
+  },
+  "Travelflex": {
+    "rank": 228,
+    "ticker": "trf"
+  },
+  "Triangles": {
+    "rank": 476,
+    "ticker": "tri"
+  },
+  "TrickyCoin": {
+    "rank": 874,
+    "ticker": "trick"
+  },
+  "Truckcoin": {
+    "rank": 530,
+    "ticker": "trk"
+  },
+  "Trollcoin": {
+    "rank": 461,
+    "ticker": "troll"
+  },
+  "TrumpCoin": {
+    "rank": 480,
+    "ticker": "trump"
+  },
+  "TrustPlus": {
+    "rank": 264,
+    "ticker": "trust"
+  },
+  "Tattoocoin (S...": {
+    "rank": 297,
+    "ticker": "tse"
+  },
+  "Tristar Coin": {
+    "rank": 728,
+    "ticker": "tstr"
+  },
+  "TittieCoin": {
+    "rank": 309,
+    "ticker": "ttc"
+  },
+  "TurboCoin": {
+    "rank": 833,
+    "ticker": "turbo"
+  },
+  "TransferCoin": {
+    "rank": 148,
+    "ticker": "tx"
+  },
+  "Tychocoin": {
+    "rank": 720,
+    "ticker": "tycho"
+  },
+  "TrezarCoin": {
+    "rank": 247,
+    "ticker": "tzc"
+  },
+  "Ubiq": {
+    "rank": 61,
+    "ticker": "ubq"
+  },
+  "United Bitcoin": {
+    "rank": 744,
+    "ticker": "ubtc"
+  },
+  "Uniform Fisca...": {
+    "rank": 194,
+    "ticker": "ufo"
+  },
+  "Unitus": {
+    "rank": 312,
+    "ticker": "uis"
+  },
+  "Ulatech": {
+    "rank": 716,
+    "ticker": "ula"
+  },
+  "UnbreakableCoin": {
+    "rank": 294,
+    "ticker": "unb"
+  },
+  "UNCoin": {
+    "rank": 906,
+    "ticker": "unc"
+  },
+  "Universe": {
+    "rank": 437,
+    "ticker": "uni"
+  },
+  "UniCoin": {
+    "rank": 463,
+    "ticker": "unic"
+  },
+  "Unify": {
+    "rank": 322,
+    "ticker": "unify"
+  },
+  "Universal Cur...": {
+    "rank": 138,
+    "ticker": "unit"
+  },
+  "GameUnits": {
+    "rank": 555,
+    "ticker": "units"
+  },
+  "Unobtanium": {
+    "rank": 80,
+    "ticker": "uno"
+  },
+  "UniversalRoya...": {
+    "rank": 803,
+    "ticker": "unrc"
+  },
+  "UR": {
+    "rank": 867,
+    "ticker": "ur"
+  },
+  "Unrealcoin": {
+    "rank": 663,
+    "ticker": "urc"
+  },
+  "Uro": {
+    "rank": 655,
+    "ticker": "uro"
+  },
+  "Ultimate Secu...": {
+    "rank": 457,
+    "ticker": "usc"
+  },
+  "NuBits": {
+    "rank": 205,
+    "ticker": "usnbt"
+  },
+  "UltraCoin": {
+    "rank": 492,
+    "ticker": "utc"
+  },
+  "Version": {
+    "rank": 434,
+    "ticker": "v"
+  },
+  "Valorbit": {
+    "rank": 475,
+    "ticker": "val"
+  },
+  "VPNCoin": {
+    "rank": 775,
+    "ticker": "vash"
+  },
+  "VirtualCoin": {
+    "rank": 556,
+    "ticker": "vc"
+  },
+  "VectorAI": {
+    "rank": 665,
+    "ticker": "vec2"
+  },
+  "Viacoin": {
+    "rank": 78,
+    "ticker": "via"
+  },
+  "PureVidz": {
+    "rank": 494,
+    "ticker": "vidz"
+  },
+  "VIP Tokens": {
+    "rank": 628,
+    "ticker": "vip"
+  },
+  "Visio": {
+    "rank": 499,
+    "ticker": "visio"
+  },
+  "VIVO": {
+    "rank": 293,
+    "ticker": "vivo"
+  },
+  "Veltor": {
+    "rank": 599,
+    "ticker": "vlt"
+  },
+  "Vault Coin": {
+    "rank": 721,
+    "ticker": "vltc"
+  },
+  "Bitvolt": {
+    "rank": 697,
+    "ticker": "volt"
+  },
+  "VoteCoin": {
+    "rank": 557,
+    "ticker": "vot"
+  },
+  "Voyacoin": {
+    "rank": 876,
+    "ticker": "voya"
+  },
+  "VapersCoin": {
+    "rank": 390,
+    "ticker": "vprc"
+  },
+  "VeriCoin": {
+    "rank": 119,
+    "ticker": "vrc"
+  },
+  "VeriumReserve": {
+    "rank": 224,
+    "ticker": "vrm"
+  },
+  "Vsync": {
+    "rank": 260,
+    "ticker": "vsx"
+  },
+  "Virtacoin": {
+    "rank": 430,
+    "ticker": "vta"
+  },
+  "Vertcoin": {
+    "rank": 54,
+    "ticker": "vtc"
+  },
+  "vTorrent": {
+    "rank": 229,
+    "ticker": "vtr"
+  },
+  "Virta Unique ...": {
+    "rank": 610,
+    "ticker": "vuc"
+  },
+  "Vulcano": {
+    "rank": 778,
+    "ticker": "vulc"
+  },
+  "W3Coin": {
+    "rank": 736,
+    "ticker": "w3c"
+  },
+  "WA Space": {
+    "rank": 773,
+    "ticker": "wa"
+  },
+  "Wanchain": {
+    "rank": 732,
+    "ticker": "wan"
+  },
+  "WARP": {
+    "rank": 625,
+    "ticker": "warp"
+  },
+  "Waves": {
+    "rank": 23,
+    "ticker": "waves"
+  },
+  "WayGuide": {
+    "rank": 481,
+    "ticker": "way"
+  },
+  "Wild Beast Block": {
+    "rank": 692,
+    "ticker": "wbb"
+  },
+  "WINCOIN": {
+    "rank": 742,
+    "ticker": "wc"
+  },
+  "WorldCoin": {
+    "rank": 435,
+    "ticker": "wdc"
+  },
+  "WhaleCoin": {
+    "rank": 350,
+    "ticker": "whl"
+  },
+  "WaykiChain": {
+    "rank": 734,
+    "ticker": "wic"
+  },
+  "Wink": {
+    "rank": 834,
+    "ticker": "wink"
+  },
+  "WomenCoin": {
+    "rank": 409,
+    "ticker": "women"
+  },
+  "HealthyWormCoin": {
+    "rank": 654,
+    "ticker": "worm"
+  },
+  "Wowcoin": {
+    "rank": 913,
+    "ticker": "wow"
+  },
+  "WeAreSatoshi": {
+    "rank": 794,
+    "ticker": "wsx"
+  },
+  "X2": {
+    "rank": 868,
+    "ticker": "x2"
+  },
+  "Asch": {
+    "rank": 63,
+    "ticker": "xas"
+  },
+  "Xaucoin": {
+    "rank": 905,
+    "ticker": "xau"
+  },
+  "Bitcoin Plus": {
+    "rank": 213,
+    "ticker": "xbc"
+  },
+  "Bitcoin 21": {
+    "rank": 605,
+    "ticker": "xbtc21"
+  },
+  "Beatcoin": {
+    "rank": 582,
+    "ticker": "xbts"
+  },
+  "XTRABYTES": {
+    "rank": 66,
+    "ticker": "xby"
+  },
+  "Cryptonite": {
+    "rank": 354,
+    "ticker": "xcn"
+  },
+  "X-Coin": {
+    "rank": 406,
+    "ticker": "xco"
+  },
+  "Counterparty": {
+    "rank": 81,
+    "ticker": "xcp"
+  },
+  "Copico": {
+    "rank": 348,
+    "ticker": "xcpo"
+  },
+  "Creatio": {
+    "rank": 603,
+    "ticker": "xcre"
+  },
+  "C-Bit": {
+    "rank": 549,
+    "ticker": "xct"
+  },
+  "CoinonatX": {
+    "rank": 381,
+    "ticker": "xcxt"
+  },
+  "DigitalNote": {
+    "rank": 64,
+    "ticker": "xdn"
+  },
+  "Elastic": {
+    "rank": 98,
+    "ticker": "xel"
+  },
+  "NEM": {
+    "rank": 12,
+    "ticker": "xem"
+  },
+  "Footy Cash": {
+    "rank": 291,
+    "ticker": "xft"
+  },
+  "XGOX": {
+    "rank": 248,
+    "ticker": "xgox"
+  },
+  "GoldReserve": {
+    "rank": 505,
+    "ticker": "xgr"
+  },
+  "HiCoin": {
+    "rank": 375,
+    "ticker": "xhi"
+  },
+  "International...": {
+    "rank": 870,
+    "ticker": "xid"
+  },
+  "Infinity Econ...": {
+    "rank": 750,
+    "ticker": "xin"
+  },
+  "Xios": {
+    "rank": 552,
+    "ticker": "xios"
+  },
+  "Joulecoin": {
+    "rank": 488,
+    "ticker": "xjo"
+  },
+  "LeviarCoin": {
+    "rank": 346,
+    "ticker": "xlc"
+  },
+  "Stellar": {
+    "rank": 7,
+    "ticker": "xlm"
+  },
+  "Solaris": {
+    "rank": 166,
+    "ticker": "xlr"
+  },
+  "Monoeci": {
+    "rank": 239,
+    "ticker": "xmcc"
+  },
+  "Magi": {
+    "rank": 278,
+    "ticker": "xmg"
+  },
+  "Monero": {
+    "rank": 10,
+    "ticker": "xmr"
+  },
+  "Myriad": {
+    "rank": 160,
+    "ticker": "xmy"
+  },
+  "Enigma": {
+    "rank": 568,
+    "ticker": "xng"
+  },
+  "Xonecoin": {
+    "rank": 698,
+    "ticker": "xoc"
+  },
+  "Experience Po...": {
+    "rank": 65,
+    "ticker": "xp"
+  },
+  "PetroDollar": {
+    "rank": 314,
+    "ticker": "xpd"
+  },
+  "Primecoin": {
+    "rank": 118,
+    "ticker": "xpm"
+  },
+  "PlatinumBAR": {
+    "rank": 441,
+    "ticker": "xptx"
+  },
+  "PayCoin": {
+    "rank": 525,
+    "ticker": "xpy"
+  },
+  "Quotient": {
+    "rank": 791,
+    "ticker": "xqn"
+  },
+  "Ratecoin": {
+    "rank": 538,
+    "ticker": "xra"
+  },
+  "Rawcoin": {
+    "rank": 412,
+    "ticker": "xrc"
+  },
+  "RevolverCoin": {
+    "rank": 563,
+    "ticker": "xre"
+  },
+  "Ripple": {
+    "rank": 3,
+    "ticker": "xrp"
+  },
+  "Royalties": {
+    "rank": 790,
+    "ticker": "xry"
+  },
+  "SHIELD": {
+    "rank": 127,
+    "ticker": "xsh"
+  },
+  "Spectrecoin": {
+    "rank": 155,
+    "ticker": "xspec"
+  },
+  "Stealthcoin": {
+    "rank": 184,
+    "ticker": "xst"
+  },
+  "Safe Trade Coin": {
+    "rank": 805,
+    "ticker": "xstc"
+  },
+  "XTD Coin": {
+    "rank": 898,
+    "ticker": "xtd"
+  },
+  "Tao": {
+    "rank": 132,
+    "ticker": "xto"
+  },
+  "Tezos (Pre-La...": {
+    "rank": 745,
+    "ticker": "xtz"
+  },
+  "Vcash": {
+    "rank": 422,
+    "ticker": "xvc"
+  },
+  "The Vegan Ini...": {
+    "rank": 915,
+    "ticker": "xve"
+  },
+  "Verge": {
+    "rank": 19,
+    "ticker": "xvg"
+  },
+  "Virtacoinplus": {
+    "rank": 567,
+    "ticker": "xvp"
+  },
+  "WhiteCoin": {
+    "rank": 103,
+    "ticker": "xwc"
+  },
+  "ZCoin": {
+    "rank": 41,
+    "ticker": "xzc"
+  },
+  "Yacoin": {
+    "rank": 566,
+    "ticker": "yac"
+  },
+  "YashCoin": {
+    "rank": 433,
+    "ticker": "yash"
+  },
+  "Yocoin": {
+    "rank": 215,
+    "ticker": "yoc"
+  },
+  "YENTEN": {
+    "rank": 565,
+    "ticker": "ytn"
+  },
+  "Zilbercoin": {
+    "rank": 821,
+    "ticker": "zbc"
+  },
+  "ZClassic": {
+    "rank": 91,
+    "ticker": "zcl"
+  },
+  "Zcash": {
+    "rank": 18,
+    "ticker": "zec"
+  },
+  "Zeitcoin": {
+    "rank": 192,
+    "ticker": "zeit"
+  },
+  "ZenCash": {
+    "rank": 59,
+    "ticker": "zen"
+  },
+  "Zennies": {
+    "rank": 323,
+    "ticker": "zeni"
+  },
+  "Zephyr": {
+    "rank": 237,
+    "ticker": "zeph"
+  },
+  "Zero": {
+    "rank": 249,
+    "ticker": "zer"
+  },
+  "Zetacoin": {
+    "rank": 436,
+    "ticker": "zet"
+  },
+  "ZetaMicron": {
+    "rank": 661,
+    "ticker": "zmc"
+  },
+  "Zonecoin": {
+    "rank": 702,
+    "ticker": "zne"
+  },
+  "Bitzeny": {
+    "rank": 275,
+    "ticker": "zny"
+  },
+  "Zoin": {
+    "rank": 150,
+    "ticker": "zoi"
+  },
+  "ZSEcoin": {
+    "rank": 859,
+    "ticker": "zse"
+  },
+  "Zurcoin": {
+    "rank": 559,
+    "ticker": "zur"
+  },
+  "Zayedcoin": {
+    "rank": 407,
+    "ticker": "zyd"
+  },
+  "ZoZoCoin": {
+    "rank": 558,
+    "ticker": "zzc"
+  }
+}
