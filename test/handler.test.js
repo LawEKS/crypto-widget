@@ -1,7 +1,7 @@
 const test = require('tape')
 const supertest = require('supertest')
 const nock = require('nock')
-const { handleStatic, handleForecast } = require('../src/handler')
+const { handleStatic, handleForecast, handleSuggestions } = require('../src/handler')
 
 test('Test handleStatic', t => {
   t.plan(7)
@@ -47,7 +47,7 @@ test('Test handleForecast', t => {
       __dirname + '/dummy-data/coinbin-forecast-success.json',
       { 'Content-Type': 'application/json' }
     )
-    
+
   supertest(handleForecast)
     .get('/forecast&ticker=btc')
     .expect(200)
@@ -55,7 +55,7 @@ test('Test handleForecast', t => {
     .end((err, res) => {
       t.error(err, 'GET to /forecast&ticker=btc responds with api data')
     })
-    
+
   nock('https://coinbin.org/')
     .get('/abc/forecast')
     .replyWithFile(
@@ -72,4 +72,26 @@ test('Test handleForecast', t => {
       t.error(err, 'GET to /forecast with bad ticker responds with 500')
       t.end()
     })
-  })
+})
+
+test('Test handleSuggestions', t => {
+  t.plan(4)
+  supertest(handleSuggestions)
+    .get('/suggestions&search=')
+    .expect(200)
+    .expect('content-type', /json/)
+    .end((err, res) => {
+      t.error(err, 'GET to /suggestions is successful')
+      t.same(res.body, {}, 'Search for empty string returns an empty object')
+    })
+
+  supertest(handleSuggestions)
+    .get('/suggestions&search=bit')
+    .expect(200)
+    .expect('content-type', /json/)
+    .end((err, res) => {
+      t.error(err, 'GET to /suggestions for \'bit\' is successful')
+      t.ok(Object.keys(res.body).length > 0, 'Search response for \'bit\' is populated with results')
+    })
+
+})

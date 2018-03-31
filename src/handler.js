@@ -33,7 +33,7 @@ const handleStatic = (req, res) => {
 }
 
 const handleSuggestions = (req, res) => {
-  const search = qs.parse(req.url)['search']
+  const search = qs.parse(req.url)['search'] // can this throw an exception
   const suggestions = filterSuggestions(data, search)
   res200(res, JSON.stringify(suggestions), 'application/json')
 }
