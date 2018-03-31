@@ -1,4 +1,4 @@
-# crypto-widget
+# crypto-widget [![Build Status](https://travis-ci.org/LawEKS/crypto-widget.svg?branch=master)](https://travis-ci.org/LawEKS/crypto-widget)
 
 > Search crypto-currency coins.
 > As you type suggestions will auto complete.
