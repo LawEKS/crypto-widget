@@ -1,5 +1,35 @@
-const fs = require('fs')
-const { log, error } = console
+const { get } = require('https')
+
+const coinbinRequest = (endpoint, cb)=> {
+  get(`https://coinbin.org${endpoint}`, res => {
+    const { statusCode } = res
+    const contentType = res.headers['content-type']
+
+    let error
+    if (statusCode !== 200) {
+      error = new Error(`Request failed - Status Code: ${statusCode}`)
+    } else if (!/^application\/json/.test(contentType)) {
+      error = new Error(`Expected application/json but got ${contentType}`)
+    }
+
+    if (error) {
+      cb(error, res)
+      res.resume()
+      return
+    }
+
+    res.setEncoding('utf-8')
+    let body = ''
+    res.on('data', chunk => {
+      body += chunk
+    })
+    res.on('end', () => {
+      cb(null, res, body)
+    })
+  }).on('error', (e) => { // ENOTFOUND
+    cb(e)
+  })
+}
 
 const formatApiData = resObj => {
   const coins = Object.keys(resObj.coins)
@@ -30,5 +60,6 @@ const filterSuggestions = (dataObj, subString) => {
 
 module.exports = {
   formatApiData,
-  filterSuggestions
+  filterSuggestions,
+  coinbinRequest
 }

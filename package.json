@@ -7,10 +7,12 @@
     "test": "test"
   },
   "scripts": {
-    "test": "nyc tape test/toolkit.test.js | tap-spec",
+    "test": "nyc tape test/*.test.js | tap-spec",
     "start": "node src/server.js",
     "dev": "nodemon --ignore '*.json' src/server.js",
-    "dev-test": "nodemon --ignore '*.json' test/toolkit.test.js | tap-spec"
+    "test-router": "nodemon test/router.test.js | tap-spec",
+    "test-handler": "nodemon test/handler.test.js | tap-spec",
+    "test-toolkit": "nodemon test/toolkit.test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -23,8 +25,10 @@
   },
   "homepage": "https://github.com/LawEKS/crypto-widget#readme",
   "devDependencies": {
+    "nock": "^9.2.3",
     "nodemon": "^1.17.2",
     "nyc": "^11.6.0",
+    "supertest": "^3.0.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.9.0"
   }

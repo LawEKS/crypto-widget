@@ -1,0 +1,154 @@
+{
+  "forecast": [
+    {
+      "timestamp": "2018-03-31T13:57:22.815746Z",
+      "usd": 5724.52997507,
+      "when": "23 hours from now"
+    },
+    {
+      "timestamp": "2018-04-01T13:57:22.851257Z",
+      "usd": 5825.13623670,
+      "when": "a day from now"
+    },
+    {
+      "timestamp": "2018-04-02T13:57:22.854396Z",
+      "usd": 5913.17812741,
+      "when": "2 days from now"
+    },
+    {
+      "timestamp": "2018-04-03T13:57:22.857539Z",
+      "usd": 5975.68760807,
+      "when": "3 days from now"
+    },
+    {
+      "timestamp": "2018-04-04T13:57:22.860652Z",
+      "usd": 6052.33716082,
+      "when": "4 days from now"
+    },
+    {
+      "timestamp": "2018-04-05T13:57:22.863779Z",
+      "usd": 6130.72280920,
+      "when": "5 days from now"
+    },
+    {
+      "timestamp": "2018-04-06T13:57:22.866911Z",
+      "usd": 6210.80894329,
+      "when": "6 days from now"
+    },
+    {
+      "timestamp": "2018-04-07T13:57:22.870042Z",
+      "usd": 6276.24913466,
+      "when": "7 days from now"
+    },
+    {
+      "timestamp": "2018-04-08T13:57:22.873146Z",
+      "usd": 6381.64037907,
+      "when": "8 days from now"
+    },
+    {
+      "timestamp": "2018-04-09T13:57:22.876437Z",
+      "usd": 6473.23007270,
+      "when": "9 days from now"
+    },
+    {
+      "timestamp": "2018-04-10T13:57:22.879590Z",
+      "usd": 6536.82745960,
+      "when": "10 days from now"
+    },
+    {
+      "timestamp": "2018-04-11T13:57:22.882748Z",
+      "usd": 6615.79425454,
+      "when": "11 days from now"
+    },
+    {
+      "timestamp": "2018-04-12T13:57:22.885888Z",
+      "usd": 6696.45607640,
+      "when": "12 days from now"
+    },
+    {
+      "timestamp": "2018-04-13T13:57:22.889022Z",
+      "usd": 6778.65818854,
+      "when": "13 days from now"
+    },
+    {
+      "timestamp": "2018-04-14T13:57:22.892169Z",
+      "usd": 6844.44435504,
+      "when": "14 days from now"
+    },
+    {
+      "timestamp": "2018-04-15T13:57:22.895327Z",
+      "usd": 6953.21179281,
+      "when": "15 days from now"
+    },
+    {
+      "timestamp": "2018-04-16T13:57:22.898483Z",
+      "usd": 7046.19693904,
+      "when": "16 days from now"
+    },
+    {
+      "timestamp": "2018-04-17T13:57:22.901633Z",
+      "usd": 7107.88842204,
+      "when": "17 days from now"
+    },
+    {
+      "timestamp": "2018-04-18T13:57:22.904763Z",
+      "usd": 7185.38028032,
+      "when": "18 days from now"
+    },
+    {
+      "timestamp": "2018-04-19T13:57:22.907918Z",
+      "usd": 7263.70457734,
+      "when": "19 days from now"
+    },
+    {
+      "timestamp": "2018-04-20T13:57:22.911069Z",
+      "usd": 7342.64277660,
+      "when": "20 days from now"
+    },
+    {
+      "timestamp": "2018-04-21T13:57:22.914220Z",
+      "usd": 7402.76236652,
+      "when": "21 days from now"
+    },
+    {
+      "timestamp": "2018-04-22T13:57:22.917371Z",
+      "usd": 7508.32853716,
+      "when": "22 days from now"
+    },
+    {
+      "timestamp": "2018-04-23T13:57:22.920508Z",
+      "usd": 7595.85147266,
+      "when": "23 days from now"
+    },
+    {
+      "timestamp": "2018-04-24T13:57:22.923667Z",
+      "usd": 7648.86256929,
+      "when": "24 days from now"
+    },
+    {
+      "timestamp": "2018-04-25T13:57:22.926824Z",
+      "usd": 7718.31945490,
+      "when": "25 days from now"
+    },
+    {
+      "timestamp": "2018-04-26T13:57:22.929990Z",
+      "usd": 7788.31981257,
+      "when": "26 days from now"
+    },
+    {
+      "timestamp": "2018-04-27T13:57:22.933121Z",
+      "usd": 7858.90638878,
+      "when": "27 days from now"
+    },
+    {
+      "timestamp": "2018-04-28T13:57:22.936271Z",
+      "usd": 7909.63168059,
+      "when": "28 days from now"
+    },
+    {
+      "timestamp": "2018-04-29T13:57:22.939423Z",
+      "usd": 8009.49657325,
+      "when": "29 days from now"
+    }
+  ]
+}
