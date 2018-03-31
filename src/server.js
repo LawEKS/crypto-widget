@@ -7,6 +7,7 @@ const { formatApiData } = require('./toolkit')
 const { log, error } = console
 
 const router = require('./router')
+const host = process.env.HOST || 'localhost'
 const port = process.env.PORT || 3003
 
 const server = http.createServer(router)
@@ -31,5 +32,5 @@ get(url, res => {
 
 server.listen(port, err => {
   if (err) return error('Something went wrong ', err)
-  log(`Server is listening on port ${port}`)
+  log(`Server is running at http://${host}:${port}`)
 })

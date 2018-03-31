@@ -1,6 +1,4 @@
-const fs = require('fs')
 const { get } = require('https')
-const { log, error } = console
 
 const coinbinRequest = (endpoint, cb)=> {
   get(`https://coinbin.org${endpoint}`, res => {

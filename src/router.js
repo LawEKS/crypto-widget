@@ -1,9 +1,4 @@
-const { log } = console
-const {
-  handleStatic,
-  handleSuggestions,
-  handleForecast
-} =  require('./handler')
+const { handleStatic, handleSuggestions, handleForecast } =  require('./handler')
 
 const router = (req, res) => {
   if (req.method === 'GET') {

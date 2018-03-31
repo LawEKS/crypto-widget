@@ -3,8 +3,6 @@ const qs = require('querystring')
 const path = require('path')
 const data = require('./data.json')
 const { filterSuggestions, coinbinRequest } = require('./toolkit')
-const { get } = require('https')
-const { error } = console
 
 const handleStatic = (req, res) => {
   const { url } = req
