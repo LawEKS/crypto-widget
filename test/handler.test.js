@@ -53,13 +53,13 @@ test('Test handleForecast', t => {
     .expect(200)
     .expect('content-type', /json/)
     .end((err, res) => {
-      t.error(err, 'GET to /forecast responds with api data')
+      t.error(err, 'GET to /forecast&ticker=btc responds with api data')
     })
     
   nock('https://coinbin.org/')
     .get('/abc/forecast')
     .replyWithFile(
-      200,
+      500,
       __dirname + '/dummy-data/coinbin-500.html',
       { 'Content-Type': 'text/html' }
     )
@@ -67,10 +67,9 @@ test('Test handleForecast', t => {
   supertest(handleForecast)
     .get('/forecast&ticker=abc')
     .expect(500)
-    .expect('content-type', /plain/)
+    .expect('content-type', /html/)
     .end((err, res) => {
       t.error(err, 'GET to /forecast with bad ticker responds with 500')
       t.end()
     })
-
   })

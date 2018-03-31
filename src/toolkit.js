@@ -2,8 +2,8 @@ const fs = require('fs')
 const { get } = require('https')
 const { log, error } = console
 
-const getApiData = cb => {
-  get('https://coinbin.org/coins', res => {
+const coinbinRequest = (endpoint, cb)=> {
+  get(`https://coinbin.org${endpoint}`, res => {
     const { statusCode } = res
     const contentType = res.headers['content-type']
 
@@ -15,7 +15,7 @@ const getApiData = cb => {
     }
 
     if (error) {
-      cb(error)
+      cb(error, res)
       res.resume()
       return
     }
@@ -26,9 +26,9 @@ const getApiData = cb => {
       body += chunk
     })
     res.on('end', () => {
-      cb(null, body)
+      cb(null, res, body)
     })
-  }).on('error', (e) => {
+  }).on('error', (e) => { // ENOTFOUND
     cb(e)
   })
 }
@@ -63,5 +63,5 @@ const filterSuggestions = (dataObj, subString) => {
 module.exports = {
   formatApiData,
   filterSuggestions,
-  getApiData
+  coinbinRequest
 }
