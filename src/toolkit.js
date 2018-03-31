@@ -43,13 +43,14 @@ const formatApiData = resObj => {
   return result
 }
 
-const filterSuggestions = (dataObj, subString) => {
-  if (subString === '') {
+const filterSuggestions = (dataObj, search) => {
+  // if search is empty or includes and special characters
+  if (search === '' || /[^\s\w]/gi.test(search)) {
    return {}
   }
   const names = Object.keys(dataObj)
   const result = names.reduce((obj, name) => {
-    if (name.toLowerCase().includes(subString.toLowerCase())) {
+    if (name.toLowerCase().includes(search.toLowerCase())) {
       obj[name] = dataObj[name] 
     }
     return obj

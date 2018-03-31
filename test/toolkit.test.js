@@ -1,7 +1,7 @@
 const test = require('tape')
 const nock = require('nock')
-const { coinbinRequest } = require('../src/toolkit')
-
+const { coinbinRequest, filterSuggestions } = require('../src/toolkit')
+const data = require('.//dummy-data/formated-coins-data')
 
 test('Test coinbinRequest', t => {
   nock('https://coinbin.org')
@@ -33,4 +33,28 @@ test('Test coinbinRequest', t => {
     t.end()
   })
 
+})
+
+test('Testing filterSugestions', t => {
+  t.plan(3)
+
+  t.same(
+    filterSuggestions(data, ''),
+    {},
+    'Search with empty string returns an empty object'
+  )
+
+  const results = Object.keys(filterSuggestions(data, 'bitcoin '))
+  const ifNamesIncludes = results.every(name => {
+    return name.toLowerCase().includes('bitcoin ')
   })
+
+  t.ok(ifNamesIncludes, 'The search word included in results')
+
+  t.same(
+    filterSuggestions(data, 'ethereum c*'),
+    {},
+    'Search words with special characters returns an empty object'
+  )
+
+})
