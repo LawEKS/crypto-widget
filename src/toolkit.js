@@ -1,64 +1,64 @@
-const { get } = require('https')
+const { get } = require('https');
 
-const coinbinRequest = (endpoint, cb)=> {
-  get(`https://coinbin.org${endpoint}`, res => {
-    const { statusCode } = res
-    const contentType = res.headers['content-type']
+const coinbinRequest = (endpoint, cb) => {
+  get(`https://coinbin.org${endpoint}`, (res) => {
+    const { statusCode } = res;
 
-    let error
+    let error;
     if (statusCode !== 200) {
-      error = new Error(`Request failed - Status Code: ${statusCode}`)
+      error = new Error(`Request failed - Status Code: ${statusCode}`);
     }
 
     if (error) {
-      cb(error, res)
-      res.resume()
-      return
+      cb(error, res);
+      res.resume();
+      return;
     }
 
-    res.setEncoding('utf-8')
-    let body = ''
-    res.on('data', chunk => {
-      body += chunk
-    })
+    res.setEncoding('utf-8');
+    let body = '';
+    res.on('data', (chunk) => {
+      body += chunk;
+    });
     res.on('end', () => {
-      cb(null, res, body)
-    })
+      cb(null, res, body);
+    });
   }).on('error', (e) => { // ENOTFOUND? - How to test for this
-    cb(e)
-  })
-}
+    cb(e);
+  });
+};
 
-const formatApiData = resObj => {
-  const coins = Object.keys(resObj.coins)
+const formatApiData = (resObj) => {
+  const coins = Object.keys(resObj.coins);
   const result = coins.reduce((obj, coin) => {
-    const name = resObj.coins[coin].name
-    const rank = resObj.coins[coin].rank
-    const ticker = resObj.coins[coin].ticker
-    obj[name] = { rank, ticker }
-    return obj
-  }, {})
-  return result
-}
+    const { name } = resObj.coins[coin];
+    const { rank } = resObj.coins[coin];
+    const { ticker } = resObj.coins[coin];
+    const newPair = { [`${name}`]: { rank, ticker } };
+    return Object.assign(newPair, obj);
+  }, {});
+  return result;
+};
 
 const filterSuggestions = (dataObj, search) => {
   // if search is empty or includes and special characters
   if (search === '' || /[^\s\w]/gi.test(search)) {
-   return {}
+    return {};
   }
-  const names = Object.keys(dataObj)
+  const names = Object.keys(dataObj);
   const result = names.reduce((obj, name) => {
+    let objCopy = obj;
     if (name.toLowerCase().includes(search.toLowerCase())) {
-      obj[name] = dataObj[name] 
+      const newPair = { [`${name}`]: dataObj[name] };
+      objCopy = Object.assign(newPair, obj);
     }
-    return obj
-  }, {})
-  return result
-
-}
+    return objCopy;
+  }, {});
+  return result;
+};
 
 module.exports = {
   formatApiData,
   filterSuggestions,
-  coinbinRequest
-}
+  coinbinRequest,
+};
