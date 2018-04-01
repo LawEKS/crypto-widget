@@ -1,7 +1,8 @@
 const test = require('tape')
 const nock = require('nock')
-const { coinbinRequest, filterSuggestions } = require('../src/toolkit')
-const data = require('.//dummy-data/formated-coins-data')
+const { coinbinRequest, filterSuggestions, formatApiData } = require('../src/toolkit')
+const data = require('./dummy-data/formated-coins-data')
+const apiData = require('./dummy-data/coinbin-coins-success')
 
 test('Test coinbinRequest', t => {
   nock('https://coinbin.org')
@@ -35,7 +36,7 @@ test('Test coinbinRequest', t => {
 
 })
 
-test('Testing filterSugestions', t => {
+test('Testing filterSuggestions', t => {
   t.plan(3)
 
   t.same(
@@ -56,5 +57,21 @@ test('Testing filterSugestions', t => {
     {},
     'Search words with special characters returns an empty object'
   )
+
+})
+
+test('Testing formatApiData', t => {
+  t.plan(2)
+  const result = formatApiData(apiData)
+  t.equal(typeof result, 'object', 'Result is an object')
+  const keys = Object.keys(result)
+  const sumNumOfKeys = keys.reduce((sum, key) => {
+    const innerObj = result[key]
+    const numOfKeys = Object.keys(innerObj).length
+    return sum + numOfKeys
+  }, 0)
+
+  const avgNumOfKeys = Math.ceil(sumNumOfKeys / keys.length)
+  t.ok(avgNumOfKeys === 2, 'Each key of result has an object with 2 keys')
 
 })
