@@ -75,7 +75,7 @@ test('Test handleForecast', t => {
 })
 
 test('Test handleSuggestions', t => {
-  t.plan(4)
+  t.plan(6)
   supertest(handleSuggestions)
     .get('/suggestions&search=')
     .expect(200)
@@ -92,6 +92,15 @@ test('Test handleSuggestions', t => {
     .end((err, res) => {
       t.error(err, 'GET to /suggestions for \'bit\' is successful')
       t.ok(Object.keys(res.body).length > 0, 'Search response for \'bit\' is populated with results')
+    })
+
+  supertest(handleSuggestions)
+    .get('/suggestions&searc=bit')
+    .expect(500)
+    .expect('content-type', /plain/)
+    .end((err, res) => {
+      t.error(err, 'GET to /suggestions with bad query responds fails')
+      t.ok(res.text, 'Server responds with a message when a bad query is used')
     })
 
 })

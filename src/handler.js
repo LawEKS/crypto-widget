@@ -33,9 +33,14 @@ const handleStatic = (req, res) => {
 }
 
 const handleSuggestions = (req, res) => {
-  const search = qs.parse(req.url)['search'] // can this throw an exception
-  const suggestions = filterSuggestions(data, search)
-  res200(res, JSON.stringify(suggestions), 'application/json')
+  const search = qs.parse(req.url)['search']
+  if (search === undefined) {
+    res.writeHead(500, {'Content-Type': 'text/plain'})
+    res.end('suggestions must use the search query')
+  } else {
+    const suggestions = filterSuggestions(data, search)
+    res200(res, JSON.stringify(suggestions), 'application/json')
+  }
 }
 
 const handleForecast = (req, res) => {
