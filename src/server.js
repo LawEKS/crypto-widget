@@ -1,8 +1,7 @@
 const http = require('http');
-const { get } = require('https');
 const path = require('path');
 const fs = require('fs');
-const { formatApiData } = require('./toolkit');
+const { formatApiData, coinbinRequest } = require('./toolkit');
 const router = require('./router');
 
 const { log, error } = console;
@@ -12,23 +11,17 @@ const port = process.env.PORT || 3003;
 
 const server = http.createServer(router);
 
-const url = 'https://coinbin.org/coins';
-
-get(url, (res) => {
-  let body = '';
-  res.on('data', (chunk) => {
-    body += chunk;
-  });
-
-  res.on('end', () => {
+coinbinRequest('/coins', (err, res, body) => {
+  if (err) {
+    log(err);
+  } else {
     const formattedData = JSON.stringify(formatApiData(JSON.parse(body)), null, 2);
     const filePath = path.join(__dirname, 'data.json');
-    fs.writeFile(filePath, formattedData, (err) => {
-      if (err) error('Something went wrong ', err);
+    fs.writeFile(filePath, formattedData, (fileErr) => {
+      if (fileErr) error('Something went wrong ', fileErr);
     });
-  });
+  }
 });
-
 
 server.listen(port, (err) => {
   if (err) error('Something went wrong ', err);
