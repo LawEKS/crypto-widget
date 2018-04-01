@@ -8,8 +8,6 @@ const coinbinRequest = (endpoint, cb)=> {
     let error
     if (statusCode !== 200) {
       error = new Error(`Request failed - Status Code: ${statusCode}`)
-    } else if (!/^application\/json/.test(contentType)) {
-      error = new Error(`Expected application/json but got ${contentType}`)
     }
 
     if (error) {
@@ -26,7 +24,7 @@ const coinbinRequest = (endpoint, cb)=> {
     res.on('end', () => {
       cb(null, res, body)
     })
-  }).on('error', (e) => { // ENOTFOUND
+  }).on('error', (e) => { // ENOTFOUND? - How do to test for this
     cb(e)
   })
 }
