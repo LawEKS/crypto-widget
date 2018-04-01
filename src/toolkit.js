@@ -24,7 +24,7 @@ const coinbinRequest = (endpoint, cb)=> {
     res.on('end', () => {
       cb(null, res, body)
     })
-  }).on('error', (e) => { // ENOTFOUND? - How do to test for this
+  }).on('error', (e) => { // ENOTFOUND? - How to test for this
     cb(e)
   })
 }
