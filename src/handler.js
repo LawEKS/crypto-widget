@@ -2,7 +2,7 @@ const fs = require('fs');
 const qs = require('querystring');
 const path = require('path');
 const data = require('./data.json');
-const { filterSuggestions, coinbinRequest } = require('./toolkit');
+const { filterSuggestions, coinbinRequest, formatForecastData } = require('./toolkit');
 
 const resResourceError = (res) => {
   res.writeHead(404, { 'Content-Type': 'text/html' });
@@ -61,7 +61,8 @@ const handleForecast = (req, res) => {
       res.writeHead(apiRes.statusCode, { 'Content-Type': `${apiRes.headers['content-type']}` });
       res.end('Something went wrong');
     } else {
-      res200(res, body, apiRes.headers['content-type']);
+      res200(res, JSON.stringify(formatForecastData(JSON.parse(body))), apiRes.headers['content-type']);
+      // res200(res, body, apiRes.headers['content-type']);
     }
   });
 };
