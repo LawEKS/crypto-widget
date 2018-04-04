@@ -61,7 +61,9 @@ const formatForecastData = (resObj) => {
   const { forecast } = resObj;
   const result = forecast.map((obj) => {
     const { timestamp, usd } = obj;
-    return { timestamp, usd };
+    const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+    const formatedDateString = new Date(timestamp).toLocaleDateString('en-UK', options);
+    return { timestamp: formatedDateString, usd };
   });
   return result;
 };
