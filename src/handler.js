@@ -62,7 +62,6 @@ const handleForecast = (req, res) => {
       res.end('Something went wrong');
     } else {
       res200(res, JSON.stringify(formatForecastData(JSON.parse(body))), apiRes.headers['content-type']);
-      // res200(res, body, apiRes.headers['content-type']);
     }
   });
 };
