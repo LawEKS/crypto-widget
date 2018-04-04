@@ -1,8 +1,11 @@
 const test = require('tape');
 const nock = require('nock');
-const { coinbinRequest, filterSuggestions, formatApiData } = require('../src/toolkit');
+const {
+  coinbinRequest, filterSuggestions, formatApiData, formatForecastData,
+} = require('../src/toolkit');
 const data = require('./dummy-data/formated-coins-data');
 const apiData = require('./dummy-data/coinbin-coins-success');
+const forecastData = require('./dummy-data/coinbin-forecast-success');
 
 test('Test coinbinRequest', (t) => {
   nock('https://coinbin.org')
@@ -69,4 +72,9 @@ test('Testing formatApiData', (t) => {
 
   const avgNumOfKeys = Math.ceil(sumNumOfKeys / keys.length);
   t.ok(avgNumOfKeys === 2, 'Each key of result has an object with 2 keys');
+});
+
+test('Testing formatForecastData', (t) => {
+  t.plan(1);
+  t.ok(Array.isArray(formatForecastData(forecastData)), 'formatForecastData returns an array');
 });

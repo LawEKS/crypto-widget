@@ -57,8 +57,13 @@ const filterSuggestions = (dataObj, search) => {
   return result;
 };
 
+const formatForecastData = (resObj) => {
+  const result = [];
+  return result;
+};
 module.exports = {
   formatApiData,
   filterSuggestions,
   coinbinRequest,
+  formatForecastData,
 };
