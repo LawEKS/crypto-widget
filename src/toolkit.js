@@ -58,7 +58,11 @@ const filterSuggestions = (dataObj, search) => {
 };
 
 const formatForecastData = (resObj) => {
-  const result = [];
+  const { forecast } = resObj;
+  const result = forecast.map((obj) => {
+    const { timestamp, usd } = obj;
+    return { timestamp, usd };
+  });
   return result;
 };
 module.exports = {

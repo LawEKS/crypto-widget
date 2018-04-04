@@ -75,7 +75,7 @@ test('Testing formatApiData', (t) => {
 });
 
 test('Testing formatForecastData', (t) => {
-  t.plan(6);
+  t.plan(8);
   const forecastData = formatForecastData(forecastApiData);
   t.ok(Array.isArray(forecastData), 'formatForecastData returns an array');
   t.ok(forecastData.length === 30, 'The array has 30 items');
@@ -94,7 +94,7 @@ test('Testing formatForecastData', (t) => {
   t.ok(objectKeysSet.has('timestamp'), 'Each object has key: timestamp');
   t.ok(objectKeysSet.has('usd'), 'Each object has key: usd');
 
-//   const { timestamp, usd } = forecastData[0];
-//   t.ok(typeof timestamp === 'string', 'timestamp is a string');
-//   t.ok(typeof usd === 'number', 'usd is a number');
+  const { timestamp, usd } = forecastData[0];
+  t.ok(typeof timestamp === 'string', 'timestamp is a string');
+  t.ok(typeof usd === 'number', 'usd is a number');
 });
