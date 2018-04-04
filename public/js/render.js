@@ -23,6 +23,7 @@ function renderSuggestion(obj) {
 }
 
 function renderOverview(obj) {
+  console.log(obj)
   var overviewContainer = 'overview';
   console.log('rendering response');
 }
