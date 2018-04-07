@@ -1,6 +1,5 @@
 /* eslint-disable */
 function listenUserSearchInput() {
-  console.log('listening for user input');
 
   var input = document.querySelector('.search');
   input.addEventListener('keyup', function(e) {
